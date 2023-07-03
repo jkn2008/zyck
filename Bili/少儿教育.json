@@ -18,25 +18,17 @@
       "type_name": "幼儿安全",
       "type_id": "幼儿安全"
     },
-        {
-      "type_name": "幼儿卫生",
-      "type_id": "幼儿卫生"
-    },
     {
       "type_name": "儿童益智",
       "type_id": "儿童益智"
     },
    {
-      "type_name": "儿童画画",
-      "type_id": "儿童画画"
+      "type_name": "幼儿画画",
+      "type_id": "幼儿画画"
     },
    {
       "type_name": "儿童舞蹈",
       "type_id": "儿童舞蹈"
-    },
-    {
-      "type_name": "儿童安全教育",
-      "type_id": "儿童安全教育"
     },
     {
       "type_name": "童话故事",
@@ -304,7 +296,7 @@
       }
     ],
 
-         "儿童画画": [
+         "幼儿画画": [
       {"key": "order","name": "排序","value": [
 {"n": "综合排序","v": "0"},
 {"n": "最多点击","v": "click"},
