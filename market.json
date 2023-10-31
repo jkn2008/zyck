@@ -3,8 +3,8 @@
     "name": "推荐",
     "list": [
       {
-        "name": "在线仓库",        
-        "url": "https://agit.ai/Mr.X/java/raw/branch/master/images/在线仓库.json",
+        "name": "在线接口",        
+        "url": "https://agit.ai/Mr.X/java/raw/branch/master/images/在线接口.json",
         "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/000.jpg"
       }
     ]
