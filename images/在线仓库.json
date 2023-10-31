@@ -1,0 +1,32 @@
+﻿//以下接口随意选择其中一个链接或直接文本导入多个接口
+
+
+{
+    "urls": [
+
+        {
+            "url": "http://饭太硬.top/tv",
+            "name": "饭太硬"
+        },
+        {
+            "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+            "name": "南风"
+        },
+        {
+            "url": "http://我不是.肥猫.love:63/接口禁止贩卖",
+            "name": "肥猫"
+        },
+        {
+            "url": "http://xhww.fun:63/小米/DEMO.json",
+            "name": "小米"
+        },
+        {
+            "url": "https://xhdwc.tk/0",
+            "name": "零零"
+        },
+        {
+            "url": "https://tvbox.cainisi.cf",
+            "name": "菜妮丝"
+        }
+    ]
+}
