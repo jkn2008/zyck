@@ -1,5 +1,14 @@
 ﻿[
-
+  {
+    "name": "推荐",
+    "list": [
+      {
+        "name": "网络接口",        
+        "url": "http://52bsj.vip:81/s/qj5sL",
+        "icon": "https://i.imgs.ovh/2023/10/19/2mfxN.jpeg"
+      }
+    ]
+  },
   {
     "name": "正式版",
     "list": [
