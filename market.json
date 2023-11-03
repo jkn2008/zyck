@@ -120,6 +120,17 @@
       }
     ]
   },
+    {
+    "name": "实验版",
+    "list": [
+      {
+        "name": "电视-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/test/leanback-java-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v7a"
+      }
+    ]
+  },
   {
     "name": "V7a",
     "list": [
