@@ -3,7 +3,6 @@
     "name": "推荐",
     "list": [
       {
-        "name": "在线接口",        
         "url": "https://agit.ai/Mr.X/java/raw/branch/master/images/在线接口.json",
         "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/000.jpg"
       }
@@ -20,7 +19,7 @@
       },
       {
         "name": "电视-java",
-        "url": "https:https://agit.ai/Mr.X/Release/raw/branch/main/apk/release/leanback-java-arm64_v8a.apk",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/release/leanback-java-arm64_v8a.apk",
         "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
         "version": "v8a"
       },
@@ -68,7 +67,7 @@
     ]
   },
   {
-    "name": "内测版",
+    "name": "內測版",
     "list": [
       {
         "name": "电视-java",
@@ -120,99 +119,148 @@
       }
     ]
   },
-    {
-    "name": "实验版",
+  {
+    "name": "v7a",
     "list": [
       {
-        "name": "电视-java",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/test/leanback-java-armeabi_v7a.apk",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
-        "version": "v7a"
-      }
-    ]
-  },
-  {
-    "name": "V7a",
-    "list": [
+        "name": "ffmpeg",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libffmpegJNI.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg",
+        "version": "EXO"
+      },
+      {
+        "name": "av1",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libgav1JNI.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg",
+        "version": "EXO"
+      },
+      {
+        "name": "ffmpeg",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libijkffmpeg.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg",
+        "version": "IJK"
+      },
+      {
+        "name": "sdl",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libijksdl.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg",
+        "version": "IJK"
+      },
+      {
+        "name": "player",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libplayer.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg",
+        "version": "IJK"
+      },
       {
         "name": "荐片",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libjpa_armeabi_v7a.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libjpa.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "磁力-1",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libxl_stat_armeabi_v7a.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libxl_stat.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "磁力-2",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libxl_thunder_sdk_armeabi_v7a.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libxl_thunder_sdk.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "晴天",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libmitv.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libmitv.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "P2P",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libp2p.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libp2p.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "P3P",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libp3p.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libp3p.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "P4P",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libp4p.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libp4p.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "P5P",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libp5p.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libp5p.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "P6P",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libp6p.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libp6p.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "P7P",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libp7p.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libp7p.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "P8P",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libp8p.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libp8p.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "P9P",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libp9p.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/armeabi-v7a/libp9p.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       }
     ]
   },
   {
-    "name": "V8a",
+    "name": "v8a",
     "list": [
       {
+        "name": "ffmpeg",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/arm64-v8a/libffmpegJNI.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg",
+        "version": "EXO"
+      },
+      {
+        "name": "av1",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/arm64-v8a/libgav1JNI.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg",
+        "version": "EXO"
+      },
+      {
+        "name": "ffmpeg",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/arm64-v8a/libijkffmpeg.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg",
+        "version": "IJK"
+      },
+      {
+        "name": "sdl",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/arm64-v8a/libijksdl.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg",
+        "version": "IJK"
+      },
+      {
+        "name": "player",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/arm64-v8a/libplayer.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg",
+        "version": "IJK"
+      },
+      {
         "name": "荐片",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libjpa_arm64_v8a.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/arm64-v8a/libjpa.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "磁力-1",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libxl_stat_arm64_v8a.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/arm64-v8a/libxl_stat.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       },
       {
         "name": "磁力-2",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/libxl_thunder_sdk_arm64_v8a.so",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.png"
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/so/arm64-v8a/libxl_thunder_sdk.so",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/003.jpg"
       }
     ]
   },
@@ -224,14 +272,14 @@
         "url": "https://agit.ai/Mr.X/FM/raw/branch/main/zip/js-1027.zip",
         "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/004.png",
         "copy": "file://Download/JS/js.json",
-        "version": "10/27"               
+        "version": "10/27"
       },
       {
         "name": "香雅情",
         "url": "https://agit.ai/Mr.X/FM/raw/branch/main/zip/XYQTVBox_本地包.zip",
         "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/004.png",
         "copy": "file://Download/XYQTVBox/XYQTVBox.json",
-        "version": "10/22"                
+        "version": "10/30"
       }
     ]
   }
