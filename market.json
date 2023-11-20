@@ -276,10 +276,9 @@
       },
       {
         "name": "香雅情",
-        "url": "https://agit.ai/Mr.X/FM/raw/branch/main/zip/XYQTVBox_本地包.zip",
+        "url": "https://agit.ai/Mr.X/XYQtvbox/raw/branch/main/XYQTVBox_本地包.zip",
         "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/004.png",
-        "copy": "file://Download/XYQTVBox/XYQTVBox.json",
-        "version": "11/16"
+        "copy": "file://Download/XYQTVBox/XYQTVBox.json"
       }
     ]
   }
