@@ -36,11 +36,6 @@
         "version": "v8a"
       },
       {
-        "name": "Android-4.x",
-        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/kitkat/leanback.apk",
-        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg"
-      },
-      {
         "name": "手机-java",
         "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/release/mobile-java-armeabi_v7a.apk",
         "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
@@ -119,6 +114,23 @@
       }
     ]
   },
+  {
+    "name": "4.x版",
+    "list": [
+      {
+        "name": "电视-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/kitkat/leanback.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "电视-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/kitkat/leanback-python.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v7a"
+      }
+    ]
+  },  
   {
     "name": "v7a",
     "list": [
