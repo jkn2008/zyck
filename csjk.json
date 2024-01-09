@@ -11,14 +11,14 @@
        "changeable": 0
     },
     {
-       "key": "hipy_t3_base",
-       "name": "base(hipy_t3)",
+       "key": "hipy_t3_樱花动漫",
+       "name": "樱花动漫(hipy_t3)",
        "type": 3,
-       "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/base_spider.py",
+       "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/樱花动漫.py",
        "searchable": 1,
        "quickSearch": 0,
        "filterable": 1,
-       "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/base_spider.json"
+       "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/樱花动漫.json"
     },    
     {
        "key": "hipy_t3_cctv",
@@ -29,16 +29,6 @@
        "quickSearch": 0,
        "filterable": 1,
        "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/cctv_spider.json"
-    },
-    {
-       "key":"hipy_t3_樱花动漫",
-       "name":"樱花动漫(hipy_t3)",
-       "type":3,
-       "api":"https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/樱花动漫.py",
-       "searchable":1,
-       "quickSearch":0,
-       "filterable":1,
-       "ext":"https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/樱花动漫.json"
     },    
     {
        "key": "push_agent",
