@@ -31,6 +31,16 @@
        "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/cctv_spider.json"
     },
     {
+       "key":"hipy_t4_樱花动漫",
+       "name":"樱花动漫(hipy_t3)",
+       "type":3,
+       "api":"https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/樱花动漫.py",
+       "searchable":1,
+       "quickSearch":0,
+       "filterable":1,
+       "ext":"https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/樱花动漫.json"
+    },    
+    {
        "key": "push_agent",
        "name": "推送",
        "type": 3,
