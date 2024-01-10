@@ -9,7 +9,37 @@
        "api": "csp_Local",
        "searchable": 0,
        "changeable": 0
-    },      
+    },
+          {
+            "key":"hipy_t4_樱花动漫",
+            "name":"樱花动漫(hipy_t4)",
+            "type":4,
+            "api":"http://192.168.31.49:5707/api/v1/vod/樱花动漫",
+            "searchable":1,
+            "quickSearch":0,
+            "filterable":1,
+            "ext":"https://jihulab.com/qiaoji/open/-/raw/main/yinghua"
+        },
+        {
+            "key": "hipy_t3_樱花动漫",
+            "name": "樱花动漫(hipy_t3)",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/%e6%a8%b1%e8%8a%b1%e5%8a%a8%e6%bc%ab.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://jihulab.com/qiaoji/open/-/raw/main/yinghua"
+        },
+         {
+            "key":"hipy_t4_两个BT",
+            "name":"两个BT(hipy_t4)",
+            "type":4,
+            "api":"http://192.168.31.49:5707/api/v1/vod/两个BT?api_ext=https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/hipy/%e4%b8%a4%e4%b8%aaBT.json",
+            "searchable":1,
+            "quickSearch":0,
+            "filterable":1,
+            "ext":"两个BT"
+        },        
     {
        "key": "push_agent",
        "name": "推送",
