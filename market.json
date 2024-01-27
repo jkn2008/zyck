@@ -1,6 +1,6 @@
 ﻿[
   {
-    "name": "推荐",
+    "name": "接口推荐",
     "list": [
       {
         "url": "https://agit.ai/Mr.X/java/raw/branch/master/images/在线接口.json",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "name": "正式版",
+    "name": "影视正式版",
     "list": [
       {
         "name": "电视-java",
@@ -71,7 +71,7 @@
     ]
   },
   {
-    "name": "内测版",
+    "name": "影视内测版",
     "list": [
       {
         "name": "电视-java",
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "name": "4.x版",
+    "name": "影视4.x版",
     "list": [
       {
         "name": "电视-java",
