@@ -8,6 +8,15 @@
       }
     ]
   },
+    {
+    "name": "TV直播",
+    "list": [
+      {
+        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/my-tv.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/005.jpg"
+      }
+    ]
+  },
   {
     "name": "正式版",
     "list": [
