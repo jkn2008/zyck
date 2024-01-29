@@ -9,9 +9,20 @@
     ]
   },
     {
-    "name": "TV直播",
+    "name": "TV软件",
     "list": [
       {
+        "name": "MX_Player",
+        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/MX_Player_TV1.15.9G.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/008.png"
+      },      
+      {
+        "name": "小白管理器",
+        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/小白文件管理器_2.8.0.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/006.png"
+      },      
+      {
+        "name": "我的电视",        
         "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/my-tv.apk",
         "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/005.jpg"
       }
