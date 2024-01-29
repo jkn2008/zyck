@@ -3,6 +3,7 @@
     "name": "推荐",
     "list": [
       {
+        "name": "接口推荐",        
         "url": "https://agit.ai/Mr.X/java/raw/branch/master/images/在线接口.json",
         "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/000.jpg"
       }
