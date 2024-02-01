@@ -1,0 +1,2493 @@
+﻿{
+  "sites": [
+
+        {
+            "key": "dr_drpy",
+            "name": "影视推荐",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/java/raw/branch/master/Bili/影视推荐.js"
+        },
+        {
+            "key": "dr_奇珍异兽",
+            "name": "爱奇艺",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/奇珍异兽.js"
+        },
+        {
+            "key": "dr_优酷",
+            "name": "优酷",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/优酷.js"
+        },      
+        {
+            "key": "dr_腾云驾雾",
+            "name": "腾讯",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/腾云驾雾.js"
+        },
+        {
+            "key": "dr_百忙无果",
+            "name": "芒果TV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/百忙无果.js"
+        },
+        {
+            "key": "dr_哔哩影视",
+            "name": "哔哩影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/java/raw/branch/master/Bili/哔哩影视.js"
+        },
+        {
+            "key": "dr_ikan机器人",
+            "name": "ikan机器人",
+            "type": 3,
+           "searchable": 1,
+           "changeable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+            "api": "https://agit.ai/Mr.X/java/raw/branch/master/dr_py/LF_ikanbot.js"
+        },
+        {
+            "key": "lf_js_p2p",
+            "name": "p2p磁力",
+            "type": 3,
+           "searchable": 1,
+           "changeable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+            "api": "https://agit.ai/Mr.X/java/raw/branch/master/dr_py/lf_p2p2_min.js"
+        },
+        {
+            "key": "Live2CMS",
+            "name": "直播转点播V2",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/live2cms.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/json/live2mv_data.json"
+        },
+        {
+            "key": "Live2Mv",
+            "name": "直播转点播",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/live2mv.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/txt/json/live2mv_data.json"
+        },
+        {
+            "key": "dr_4K电影网",
+            "name": "4K电影网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/4K电影网.js"
+        },
+        {
+            "key": "dr_4K视界[V2]",
+            "name": "4K视界[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/4K视界[V2].jsd"
+        },
+        {
+            "key": "dr_4k剧院",
+            "name": "4k剧院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/4k剧院.js"
+        },
+        {
+            "key": "dr_6V新版[磁]",
+            "name": "6V新版[磁]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/6V新版[磁].js"
+        },
+        {
+            "key": "dr_007影视",
+            "name": "007影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/007影视.jsd"
+        },
+        {
+            "key": "dr_8K影视",
+            "name": "8K影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/8K影视.jsd"
+        },
+        {
+            "key": "dr_8号影院",
+            "name": "8号影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/8号影院.js"
+        },
+        {
+            "key": "dr_9U电影",
+            "name": "9U电影",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/9U电影.js"
+        },
+        {
+            "key": "dr_58动漫",
+            "name": "58动漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/58动漫.js"
+        },
+        {
+            "key": "dr_69美剧",
+            "name": "69美剧",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/69美剧.js"
+        },
+        {
+            "key": "dr_69美剧[V2]",
+            "name": "69美剧[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/69美剧[V2].js"
+        },
+        {
+            "key": "dr_88看球",
+            "name": "88看球",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/88看球.js"
+        },
+        {
+            "key": "dr_139影视",
+            "name": "139影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/139影视.js"
+        },
+        {
+            "key": "dr_188影视",
+            "name": "188影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/188影视.js"
+        },
+        {
+            "key": "dr_310直播",
+            "name": "310直播",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/310直播.js"
+        },
+        {
+            "key": "dr_333影视",
+            "name": "333影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/333影视.js"
+        },
+        {
+            "key": "dr_348电影网",
+            "name": "348电影网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/348电影网.js"
+        },
+        {
+            "key": "dr_360影视",
+            "name": "360影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/360影视.js"
+        },
+        {
+            "key": "dr_532影院[V2]",
+            "name": "532影院[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/532影院[V2].jsd"
+        },
+        {
+            "key": "dr_539影视",
+            "name": "539影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/539影视.js"
+        },
+        {
+            "key": "dr_555电影[V2]",
+            "name": "555电影[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/555电影[V2].js"
+        },
+        {
+            "key": "dr_996影视",
+            "name": "996影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/996影视.js"
+        },
+        {
+            "key": "dr_A8音乐",
+            "name": "A8音乐",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/A8音乐.js"
+        },
+        {
+            "key": "dr_AGE动漫",
+            "name": "AGE动漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/AGE动漫.js"
+        },
+        {
+            "key": "dr_AnFuns",
+            "name": "AnFuns",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/AnFuns.js"
+        },
+        {
+            "key": "dr_Anime1动畫",
+            "name": "Anime1动畫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/Anime1动畫.js"
+        },
+        {
+            "key": "dr_Auete",
+            "name": "Auete",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/Auete.js"
+        },
+        {
+            "key": "dr_BD360",
+            "name": "BD360",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/BD360.jsd"
+        },
+        {
+            "key": "dr_B站影视",
+            "name": "B站影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/B站影视.js"
+        },
+        {
+            "key": "dr_DJ音乐",
+            "name": "DJ音乐",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/DJ音乐.js"
+        },
+        {
+            "key": "dr_EMO蓝光[V2]",
+            "name": "EMO蓝光[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/EMO蓝光[V2].jsd"
+        },
+        {
+            "key": "dr_F7好看剧[V2]",
+            "name": "F7好看剧[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/F7好看剧[V2].jsd"
+        },
+        {
+            "key": "dr_FreeOK",
+            "name": "FreeOK",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/FreeOK.jsd"
+        },
+        {
+            "key": "dr_Fun4K",
+            "name": "Fun4K",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/Fun4K.jsd"
+        },
+        {
+            "key": "dr_HDmoli",
+            "name": "HDmoli",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/HDmoli.js"
+        },
+        {
+            "key": "dr_HG影院[V2]",
+            "name": "HG影院[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/HG影院[V2].jsd"
+        },
+        {
+            "key": "dr_IMAX影视",
+            "name": "IMAX影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/IMAX影视.jsd"
+        },
+        {
+            "key": "dr_Icio影视",
+            "name": "Icio影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/Icio影视.jsd"
+        },
+        {
+            "key": "dr_JRKAN直播",
+            "name": "JRKAN直播",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/JRKAN直播.js"
+        },
+        {
+            "key": "dr_JRS录像",
+            "name": "JRS录像",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/JRS录像.jsd"
+        },
+        {
+            "key": "dr_JRS看球网",
+            "name": "JRS看球网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/JRS看球网.jsd"
+        },
+        {
+            "key": "dr_JRS看直播",
+            "name": "JRS看直播",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/JRS看直播.jsd"
+        },
+        {
+            "key": "dr_JangoIndex",
+            "name": "JangoIndex",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/JangoIndex.js"
+        },
+        {
+            "key": "dr_JustLive",
+            "name": "JustLive",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/JustLive.js"
+        },
+        {
+            "key": "dr_KOK影院",
+            "name": "KOK影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/KOK影院.jsd"
+        },
+        {
+            "key": "dr_LIBVIO",
+            "name": "LIBVIO",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/LIBVIO.js"
+        },
+        {
+            "key": "dr_LIBVIO2",
+            "name": "LIBVIO2",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/LIBVIO2.jsd"
+        },
+        {
+            "key": "dr_MV263",
+            "name": "MV263",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/MV263.jsd"
+        },
+        {
+            "key": "dr_NFM影视",
+            "name": "NFM影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/NFM影视.jsd"
+        },
+        {
+            "key": "dr_NT动漫",
+            "name": "NT动漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/NT动漫.js"
+        },
+        {
+            "key": "dr_NY影院",
+            "name": "NY影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/NY影院.js"
+        },
+        {
+            "key": "dr_Nike影视",
+            "name": "Nike影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/Nike影视.jsd"
+        },
+        {
+            "key": "dr_NyaFun",
+            "name": "NyaFun",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/NyaFun.js"
+        },
+        {
+            "key": "dr_RP影视",
+            "name": "RP影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/RP影视.jsd"
+        },
+        {
+            "key": "dr_TVB云播",
+            "name": "TVB云播",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/TVB云播.jsd"
+        },
+        {
+            "key": "dr_UM电影",
+            "name": "UM电影",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/UM电影.jsd"
+        },
+        {
+            "key": "dr_UM电影[V2]",
+            "name": "UM电影[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/UM电影[V2].js"
+        },
+        {
+            "key": "dr_UrleBird",
+            "name": "UrleBird",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/UrleBird.jsd"
+        },
+        {
+            "key": "dr_cokemv",
+            "name": "cokemv",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/cokemv.js"
+        },
+        {
+            "key": "dr_cokemv[V2]",
+            "name": "cokemv[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/cokemv[V2].js"
+        },
+        {
+            "key": "dr_ddys",
+            "name": "ddys",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/ddys.js"
+        },
+        {
+            "key": "dr_gaze",
+            "name": "gaze",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/gaze.jsd"
+        },
+        {
+            "key": "dr_i275听书",
+            "name": "i275听书",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/i275听书.js"
+        },
+        {
+            "key": "dr_ikanbot2",
+            "name": "ikanbot2",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/ikanbot2.js"
+        },
+        {
+            "key": "dr_ikanbot3",
+            "name": "ikanbot3",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/ikanbot3.js"
+        },
+        {
+            "key": "dr_l0l",
+            "name": "l0l",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/l0l.jsd"
+        },
+        {
+            "key": "dr_omofun动漫",
+            "name": "omofun动漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/omofun动漫.jsd"
+        },
+        {
+            "key": "dr_vidhub",
+            "name": "vidhub",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/vidhub.jsd"
+        },
+        {
+            "key": "dr_voflix",
+            "name": "voflix",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/voflix.js"
+        },
+        {
+            "key": "dr_七年影视",
+            "name": "七年影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/七年影视.jsd"
+        },
+        {
+            "key": "dr_万博剧院",
+            "name": "万博剧院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/万博剧院.jsd"
+        },
+        {
+            "key": "dr_万能影视",
+            "name": "万能影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/万能影视.jsd"
+        },
+        {
+            "key": "dr_两个BT",
+            "name": "两个BT",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/两个BT.js"
+        },
+        {
+            "key": "dr_中华听书网",
+            "name": "中华听书网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/中华听书网.jsd"
+        },
+        {
+            "key": "dr_中国人",
+            "name": "中国人",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/中国人.js"
+        },
+        {
+            "key": "dr_乐猪TV",
+            "name": "乐猪TV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/乐猪TV.jsd"
+        },
+        {
+            "key": "dr_乐鱼影视",
+            "name": "乐鱼影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/乐鱼影视.js"
+        },
+        {
+            "key": "dr_九酷",
+            "name": "九酷",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/九酷.jsd"
+        },
+        {
+            "key": "dr_二次萌影视",
+            "name": "二次萌影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/二次萌影视.jsd"
+        },
+        {
+            "key": "dr_云镜影视",
+            "name": "云镜影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/云镜影视.jsd"
+        },
+        {
+            "key": "dr_人人",
+            "name": "人人",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/人人.jsd"
+        },
+        {
+            "key": "dr_人人影视",
+            "name": "人人影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/人人影视.js"
+        },
+        {
+            "key": "dr_伊人追剧",
+            "name": "伊人追剧",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/伊人追剧.jsd"
+        },
+        {
+            "key": "dr_佳靓[V2]",
+            "name": "佳靓[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/佳靓[V2].jsd"
+        },
+        {
+            "key": "dr_兄弟影视",
+            "name": "兄弟影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/兄弟影视.js"
+        },
+        {
+            "key": "dr_光棍影院",
+            "name": "光棍影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/光棍影院.jsd"
+        },
+        {
+            "key": "dr_免费看",
+            "name": "免费看",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/免费看.js"
+        },
+        {
+            "key": "dr_兔小贝",
+            "name": "兔小贝",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/兔小贝.js"
+        },
+        {
+            "key": "dr_六度TV",
+            "name": "六度TV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/六度TV.jsd"
+        },
+        {
+            "key": "dr_六月听书",
+            "name": "六月听书",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/六月听书.js"
+        },
+        {
+            "key": "dr_兰花影院",
+            "name": "兰花影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/兰花影院.js"
+        },
+        {
+            "key": "dr_农民影视",
+            "name": "农民影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/农民影视.js"
+        },
+        {
+            "key": "dr_冷曦影视",
+            "name": "冷曦影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/冷曦影视.jsd"
+        },
+        {
+            "key": "dr_凌云影视",
+            "name": "凌云影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/凌云影视.js"
+        },
+        {
+            "key": "dr_利丽娅电影",
+            "name": "利丽娅电影",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/利丽娅电影.jsd"
+        },
+        {
+            "key": "dr_刺桐[V2]",
+            "name": "刺桐[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/刺桐[V2].jsd"
+        },
+        {
+            "key": "dr_剧白白",
+            "name": "剧白白",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/剧白白.jsd"
+        },
+        {
+            "key": "dr_剧迷",
+            "name": "剧迷",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/剧迷.jsd"
+        },
+        {
+            "key": "dr_剧迷su",
+            "name": "剧迷su",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/剧迷su.jsd"
+        },
+        {
+            "key": "dr_动漫岛",
+            "name": "动漫岛",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/动漫岛.js"
+        },
+        {
+            "key": "dr_北川影视",
+            "name": "北川影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/北川影视.jsd"
+        },
+        {
+            "key": "dr_北极狐[V2]",
+            "name": "北极狐[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/北极狐[V2].js"
+        },
+        {
+            "key": "dr_华乐影院[飞]",
+            "name": "华乐影院[飞]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/华乐影院[飞].js"
+        },
+        {
+            "key": "dr_南柯电影网",
+            "name": "南柯电影网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/南柯电影网.jsd"
+        },
+        {
+            "key": "dr_南瓜影视",
+            "name": "南瓜影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/南瓜影视.js"
+        },
+        {
+            "key": "dr_博看听书",
+            "name": "博看听书",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/博看听书.js"
+        },
+        {
+            "key": "dr_厂长资源",
+            "name": "厂长资源",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/厂长资源.js"
+        },
+        {
+            "key": "dr_去看吧",
+            "name": "去看吧",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/去看吧.js"
+        },
+        {
+            "key": "dr_双十电影",
+            "name": "双十电影",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/双十电影.jsd"
+        },
+        {
+            "key": "dr_听书网",
+            "name": "听书网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/听书网.js"
+        },
+        {
+            "key": "dr_吼吼[V2]",
+            "name": "吼吼[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/吼吼[V2].js"
+        },
+        {
+            "key": "dr_咕噜[V2]",
+            "name": "咕噜[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/咕噜[V2].js"
+        },
+        {
+            "key": "dr_哔哩直播",
+            "name": "哔哩直播",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/哔哩直播.js"
+        },
+        {
+            "key": "dr_哔嘀影视",
+            "name": "哔嘀影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/哔嘀影视.js"
+        },
+        {
+            "key": "dr_速看100[V2]",
+            "name": "速看100[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/速看100[V2].jsd"
+        },
+        {
+            "key": "dr_啦啦DJ",
+            "name": "啦啦DJ",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/啦啦DJ.js"
+        },
+        {
+            "key": "dr_喜马拉雅",
+            "name": "喜马拉雅",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/喜马拉雅.js"
+        },
+        {
+            "key": "dr_嘶哩嘶哩",
+            "name": "嘶哩嘶哩",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/嘶哩嘶哩.jsd"
+        },
+        {
+            "key": "dr_四个圈影视",
+            "name": "四个圈影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/四个圈影视.js"
+        },
+        {
+            "key": "dr_土狗影院",
+            "name": "土狗影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/土狗影院.jsd"
+        },
+        {
+            "key": "dr_在线之家",
+            "name": "在线之家",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/在线之家.js"
+        },
+        {
+            "key": "dr_多瑙影视",
+            "name": "多瑙影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/多瑙影视.jsd"
+        },
+        {
+            "key": "dr_多米[V2]",
+            "name": "多米[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/多米[V2].jsd"
+        },
+        {
+            "key": "dr_夜空",
+            "name": "夜空",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/夜空.jsd"
+        },
+        {
+            "key": "dr_大中影视",
+            "name": "大中影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/大中影视.jsd"
+        },
+        {
+            "key": "dr_大师兄影视",
+            "name": "大师兄影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/大师兄影视.js"
+        },
+        {
+            "key": "dr_大米星球",
+            "name": "大米星球",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/大米星球.js"
+        },
+        {
+            "key": "dr_大米星球[V2]",
+            "name": "大米星球[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/大米星球[V2].js"
+        },
+        {
+            "key": "dr_大豆",
+            "name": "大豆",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/大豆.jsd"
+        },
+        {
+            "key": "dr_天天视频[飞]",
+            "name": "天天视频[飞]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/天天视频[飞].js"
+        },
+        {
+            "key": "dr_天空影视",
+            "name": "天空影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/天空影视.jsd"
+        },
+        {
+            "key": "dr_天空影视[V2]",
+            "name": "天空影视[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/天空影视[V2].jsd"
+        },
+        {
+            "key": "dr_奇优影院",
+            "name": "奇优影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/奇优影院.js"
+        },
+        {
+            "key": "dr_奇米动漫",
+            "name": "奇米动漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/奇米动漫.js"
+        },
+        {
+            "key": "dr_奈飞中文",
+            "name": "奈飞中文",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/奈飞中文.js"
+        },
+        {
+            "key": "dr_奈飞狗[V2]",
+            "name": "奈飞狗[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/奈飞狗[V2].js"
+        },
+        {
+            "key": "dr_好趣网",
+            "name": "好趣网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/好趣网.js"
+        },
+        {
+            "key": "dr_如意[V2]",
+            "name": "如意[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/如意[V2].jsd"
+        },
+        {
+            "key": "dr_妮可动漫",
+            "name": "妮可动漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/妮可动漫.js"
+        },
+        {
+            "key": "dr_子子影视",
+            "name": "子子影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/子子影视.js"
+        },
+        {
+            "key": "dr_孜然影视",
+            "name": "孜然影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/孜然影视.js"
+        },
+        {
+            "key": "dr_学生球赛录像[js1]",
+            "name": "学生球赛录像[js1]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/学生球赛录像[js1].jsd"
+        },
+        {
+            "key": "dr_完美看看",
+            "name": "完美看看",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/完美看看.jsd"
+        },
+        {
+            "key": "dr_宝片[V2]",
+            "name": "宝片[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/宝片[V2].js"
+        },
+        {
+            "key": "dr_宫下动漫",
+            "name": "宫下动漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/宫下动漫.jsd"
+        },
+        {
+            "key": "dr_小品网",
+            "name": "小品网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/小品网.js"
+        },
+        {
+            "key": "dr_小强迷",
+            "name": "小强迷",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/小强迷.jsd"
+        },
+        {
+            "key": "dr_小狗影院",
+            "name": "小狗影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/小狗影院.js"
+        },
+        {
+            "key": "dr_小猫咪",
+            "name": "小猫咪",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/小猫咪.jsd"
+        },
+        {
+            "key": "dr_小白菜电影",
+            "name": "小白菜电影",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/小白菜电影.jsd"
+        },
+        {
+            "key": "dr_干饭影视",
+            "name": "干饭影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/干饭影视.js"
+        },
+        {
+            "key": "dr_广播迷FM",
+            "name": "广播迷FM",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/广播迷FM.js"
+        },
+        {
+            "key": "dr_开眼视频",
+            "name": "开眼视频",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/开眼视频.js"
+        },
+        {
+            "key": "dr_异世界动漫",
+            "name": "异世界动漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/异世界动漫.js"
+        },
+        {
+            "key": "dr_影探[V2]",
+            "name": "影探[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/影探[V2].js"
+        },
+        {
+            "key": "dr_影渣渣",
+            "name": "影渣渣",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/影渣渣.js"
+        },
+        {
+            "key": "dr_影视之家",
+            "name": "影视之家",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/影视之家.jsd"
+        },
+        {
+            "key": "dr_影视工厂",
+            "name": "影视工厂",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/影视工厂.js"
+        },
+        {
+            "key": "dr_影视工场",
+            "name": "影视工场",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/影视工场.jsd"
+        },
+        {
+            "key": "dr_往往影视",
+            "name": "往往影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/往往影视.jsd"
+        },
+        {
+            "key": "dr_快看",
+            "name": "快看",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/快看.js"
+        },
+        {
+            "key": "dr_思古影视",
+            "name": "思古影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/思古影视.js"
+        },
+        {
+            "key": "dr_思古影视[V2]",
+            "name": "思古影视[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/思古影视[V2].js"
+        },
+        {
+            "key": "dr_怡萱动漫",
+            "name": "怡萱动漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/怡萱动漫.js"
+        },
+        {
+            "key": "dr_慢大浪",
+            "name": "慢大浪",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/慢大浪.jsd"
+        },
+        {
+            "key": "dr_我爱电影网",
+            "name": "我爱电影网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/我爱电影网.jsd"
+        },
+        {
+            "key": "dr_我爱跟剧",
+            "name": "我爱跟剧",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/我爱跟剧.js"
+        },
+        {
+            "key": "dr_我的哔哩",
+            "name": "我的哔哩",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/我的哔哩.js"
+        },
+        {
+            "key": "dr_扛把子影院",
+            "name": "扛把子影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/扛把子影院.jsd"
+        },
+        {
+            "key": "dr_抓饭体育",
+            "name": "抓饭体育",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/抓饭体育.js"
+        },
+        {
+            "key": "dr_播客",
+            "name": "播客",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/播客.js"
+        },
+        {
+            "key": "dr_斗鱼直播",
+            "name": "斗鱼直播",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/斗鱼直播.js"
+        },
+        {
+            "key": "dr_新思古影视",
+            "name": "新思古影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/新思古影视.jsd"
+        },
+        {
+            "key": "dr_新片场",
+            "name": "新片场",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/新片场.js"
+        },
+        {
+            "key": "dr_新视觉影视",
+            "name": "新视觉影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/新视觉影视.js"
+        },
+        {
+            "key": "dr_无名小站",
+            "name": "无名小站",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/无名小站.jsd"
+        },
+        {
+            "key": "dr_时光影视",
+            "name": "时光影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/时光影视.js"
+        },
+        {
+            "key": "dr_星空影视",
+            "name": "星空影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/星空影视.jsd"
+        },
+        {
+            "key": "dr_星辰",
+            "name": "星辰",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/星辰.js"
+        },
+        {
+            "key": "dr_映迷[V2]",
+            "name": "映迷[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/映迷[V2].js"
+        },
+        {
+            "key": "dr_映迷影院",
+            "name": "映迷影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/映迷影院.js"
+        },
+        {
+            "key": "dr_曲奇动漫",
+            "name": "曲奇动漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/曲奇动漫.js"
+        },
+        {
+            "key": "dr_曲奇影视[V2]",
+            "name": "曲奇影视[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/曲奇影视[V2].js"
+        },
+        {
+            "key": "dr_有声小说吧",
+            "name": "有声小说吧",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/有声小说吧.js"
+        },
+        {
+            "key": "dr_有声绘本网",
+            "name": "有声绘本网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/有声绘本网.js"
+        },
+        {
+            "key": "dr_朴樱影视",
+            "name": "朴樱影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/朴樱影视.js"
+        },
+        {
+            "key": "dr_来看点播",
+            "name": "来看点播",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/来看点播.jsd"
+        },
+        {
+            "key": "dr_柒之社",
+            "name": "柒之社",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/柒之社.jsd"
+        },
+        {
+            "key": "dr_楚门影院",
+            "name": "楚门影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/楚门影院.js"
+        },
+        {
+            "key": "dr_欧帝影院",
+            "name": "欧帝影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/欧帝影院.js"
+        },
+        {
+            "key": "dr_武享吧",
+            "name": "武享吧",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/武享吧.js"
+        },
+        {
+            "key": "dr_歪片星球",
+            "name": "歪片星球",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/歪片星球.js"
+        },
+        {
+            "key": "dr_毛子[V2]",
+            "name": "毛子[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/毛子[V2].jsd"
+        },
+        {
+            "key": "dr_浮生半日",
+            "name": "浮生半日",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/浮生半日.jsd"
+        },
+        {
+            "key": "dr_海兔影院",
+            "name": "海兔影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/海兔影院.js"
+        },
+        {
+            "key": "dr_海洋听书",
+            "name": "海洋听书",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/海洋听书.js"
+        },
+        {
+            "key": "dr_清风DJ",
+            "name": "清风DJ",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/清风DJ.js"
+        },
+        {
+            "key": "dr_溪谷影视",
+            "name": "溪谷影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/溪谷影视.jsd"
+        },
+        {
+            "key": "dr_热剧猫[V2]",
+            "name": "热剧猫[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/热剧猫[V2].jsd"
+        },
+        {
+            "key": "dr_热播之家",
+            "name": "热播之家",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/热播之家.js"
+        },
+        {
+            "key": "dr_热播库",
+            "name": "热播库",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/热播库.js"
+        },
+        {
+            "key": "dr_爱上你听书网",
+            "name": "爱上你听书网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/爱上你听书网.js"
+        },
+        {
+            "key": "dr_爱弹幕",
+            "name": "爱弹幕",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/爱弹幕.js"
+        },
+        {
+            "key": "dr_爱看",
+            "name": "爱看",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/爱看.js"
+        },
+        {
+            "key": "dr_爱看影院",
+            "name": "爱看影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/爱看影院.jsd"
+        },
+        {
+            "key": "dr_爱看机器人",
+            "name": "爱看机器人",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/爱看机器人.js"
+        },
+        {
+            "key": "dr_爱看电影",
+            "name": "爱看电影",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/爱看电影.jsd"
+        },
+        {
+            "key": "dr_爱车MV",
+            "name": "爱车MV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/爱车MV.js"
+        },
+        {
+            "key": "dr_爱迪[V2]",
+            "name": "爱迪[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/爱迪[V2].jsd"
+        },
+        {
+            "key": "dr_爱迪影视",
+            "name": "爱迪影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/爱迪影视.js"
+        },
+        {
+            "key": "dr_牛马TV",
+            "name": "牛马TV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/牛马TV.jsd"
+        },
+        {
+            "key": "dr_猫了个咪",
+            "name": "猫了个咪",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/猫了个咪.js"
+        },
+        {
+            "key": "dr_玄天",
+            "name": "玄天",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/玄天.js"
+        },
+        {
+            "key": "dr_瓜皮TV",
+            "name": "瓜皮TV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/瓜皮TV.jsd"
+        },
+        {
+            "key": "dr_电影先生",
+            "name": "电影先生",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/电影先生.js"
+        },
+        {
+            "key": "dr_电影先生[V2]",
+            "name": "电影先生[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/电影先生[V2].jsd"
+        },
+        {
+            "key": "dr_番茄影视",
+            "name": "番茄影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/番茄影视.jsd"
+        },
+        {
+            "key": "dr_皮皮鸭",
+            "name": "皮皮鸭",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/皮皮鸭.js"
+        },
+        {
+            "key": "dr_相声随身听",
+            "name": "相声随身听",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/相声随身听.js"
+        },
+        {
+            "key": "dr_看一看影视",
+            "name": "看一看影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/看一看影视.jsd"
+        },
+        {
+            "key": "dr_看了么",
+            "name": "看了么",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/看了么.js"
+        },
+        {
+            "key": "dr_看看剧[V2]",
+            "name": "看看剧[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/看看剧[V2].jsd"
+        },
+        {
+            "key": "dr_看看屋",
+            "name": "看看屋",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/看看屋.jsd"
+        },
+        {
+            "key": "dr_看看电影",
+            "name": "看看电影",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/看看电影.jsd"
+        },
+        {
+            "key": "dr_看视界",
+            "name": "看视界",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/看视界.jsd"
+        },
+        {
+            "key": "dr_看韩剧",
+            "name": "看韩剧",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/看韩剧.jsd"
+        },
+        {
+            "key": "dr_真不卡",
+            "name": "真不卡",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/真不卡.jsd"
+        },
+        {
+            "key": "dr_短剧网",
+            "name": "短剧网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/短剧网.js"
+        },
+        {
+            "key": "dr_短视频",
+            "name": "短视频",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/短视频.js"
+        },
+        {
+            "key": "dr_石榴影院",
+            "name": "石榴影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/石榴影院.jsd"
+        },
+        {
+            "key": "dr_磁力熊[磁]",
+            "name": "磁力熊[磁]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/磁力熊[磁].js"
+        },
+        {
+            "key": "dr_神马影视",
+            "name": "神马影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/神马影视.jsd"
+        },
+        {
+            "key": "dr_秋霞",
+            "name": "秋霞",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/秋霞.js"
+        },
+        {
+            "key": "dr_秋霞影视",
+            "name": "秋霞影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/秋霞影视.js"
+        },
+        {
+            "key": "dr_种子音乐",
+            "name": "种子音乐",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/种子音乐.js"
+        },
+        {
+            "key": "dr_稀饭影视",
+            "name": "稀饭影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/稀饭影视.jsd"
+        },
+        {
+            "key": "dr_童趣",
+            "name": "童趣",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/童趣.js"
+        },
+        {
+            "key": "dr_米爱影视",
+            "name": "米爱影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/米爱影视.js"
+        },
+        {
+            "key": "dr_粤爱看",
+            "name": "粤爱看",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/粤爱看.jsd"
+        },
+        {
+            "key": "dr_素白白",
+            "name": "素白白",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/素白白.js"
+        },
+        {
+            "key": "dr_网易公版影像",
+            "name": "网易公版影像",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/网易公版影像.js"
+        },
+        {
+            "key": "dr_网飞.TV",
+            "name": "网飞.TV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/网飞.TV.js"
+        },
+        {
+            "key": "dr_美剧网",
+            "name": "美剧网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/美剧网.js"
+        },
+        {
+            "key": "dr_美益达[V2]",
+            "name": "美益达[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/美益达[V2].js"
+        },
+        {
+            "key": "dr_美视网",
+            "name": "美视网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/美视网.js"
+        },
+        {
+            "key": "dr_胖虎",
+            "name": "胖虎",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/胖虎.js"
+        },
+        {
+            "key": "dr_花屋影院",
+            "name": "花屋影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/花屋影院.js"
+        },
+        {
+            "key": "dr_花猪影视[V2]",
+            "name": "花猪影视[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/花猪影视[V2].jsd"
+        },
+        {
+            "key": "dr_花猫TV",
+            "name": "花猫TV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/花猫TV.js"
+        },
+        {
+            "key": "dr_苹果DJ",
+            "name": "苹果DJ",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/苹果DJ.js"
+        },
+        {
+            "key": "dr_苹果爱微",
+            "name": "苹果爱微",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/苹果爱微.js"
+        },
+        {
+            "key": "dr_荐片",
+            "name": "荐片",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/荐片.js"
+        },
+        {
+            "key": "dr_莫扎兔",
+            "name": "莫扎兔",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/莫扎兔.jsd"
+        },
+        {
+            "key": "dr_菜狗",
+            "name": "菜狗",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/菜狗.js"
+        },
+        {
+            "key": "dr_萌蛋蛋[V2]",
+            "name": "萌蛋蛋[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/萌蛋蛋[V2].jsd"
+        },
+        {
+            "key": "dr_落攻阁影视",
+            "name": "落攻阁影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/落攻阁影视.js"
+        },
+        {
+            "key": "dr_落攻阁影视[V2]",
+            "name": "落攻阁影视[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/落攻阁影视[V2].js"
+        },
+        {
+            "key": "dr_蓝光影院",
+            "name": "蓝光影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/蓝光影院.jsd"
+        },
+        {
+            "key": "dr_蓝莓影视",
+            "name": "蓝莓影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/蓝莓影视.jsd"
+        },
+        {
+            "key": "dr_蘑菇",
+            "name": "蘑菇",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/蘑菇.jsd"
+        },
+        {
+            "key": "dr_虎牙直播",
+            "name": "虎牙直播",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/虎牙直播.js"
+        },
+        {
+            "key": "dr_蛋蛋剧",
+            "name": "蛋蛋剧",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/蛋蛋剧.js"
+        },
+        {
+            "key": "dr_蛋蛋赞",
+            "name": "蛋蛋赞",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/蛋蛋赞.jsd"
+        },
+        {
+            "key": "dr_蜥蜴影视",
+            "name": "蜥蜴影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/蜥蜴影视.js"
+        },
+        {
+            "key": "dr_蜻蜓FM",
+            "name": "蜻蜓FM",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/蜻蜓FM.js"
+        },
+        {
+            "key": "dr_西瓜影院",
+            "name": "西瓜影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/西瓜影院.js"
+        },
+        {
+            "key": "dr_西门[V2]",
+            "name": "西门[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/西门[V2].jsd"
+        },
+        {
+            "key": "dr_评书随身听",
+            "name": "评书随身听",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/评书随身听.js"
+        },
+        {
+            "key": "dr_豆巴影视",
+            "name": "豆巴影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/豆巴影视.jsd"
+        },
+        {
+            "key": "dr_起飞影院",
+            "name": "起飞影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/起飞影院.js"
+        },
+        {
+            "key": "dr_跑TV",
+            "name": "跑TV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/跑TV.js"
+        },
+        {
+            "key": "dr_路人甲[V2]",
+            "name": "路人甲[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/路人甲[V2].js"
+        },
+        {
+            "key": "dr_路漫漫",
+            "name": "路漫漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/路漫漫.js"
+        },
+        {
+            "key": "dr_达达龟",
+            "name": "达达龟",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/达达龟.jsd"
+        },
+        {
+            "key": "dr_迷你库[V2]",
+            "name": "迷你库[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/迷你库[V2].jsd"
+        },
+        {
+            "key": "dr_追剧兔",
+            "name": "追剧兔",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/追剧兔.jsd"
+        },
+        {
+            "key": "dr_追剧喵",
+            "name": "追剧喵",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/追剧喵.jsd"
+        },
+        {
+            "key": "dr_追剧达人",
+            "name": "追剧达人",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/追剧达人.jsd"
+        },
+        {
+            "key": "dr_追剧迷",
+            "name": "追剧迷",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/追剧迷.js"
+        },
+        {
+            "key": "dr_酷6网",
+            "name": "酷6网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/酷6网.js"
+        },
+        {
+            "key": "dr_酷云77",
+            "name": "酷云77",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/酷云77.js"
+        },
+        {
+            "key": "dr_酷奇MV",
+            "name": "酷奇MV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/酷奇MV.js"
+        },
+        {
+            "key": "dr_徕米TV",
+            "name": "徕米TV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/徕米TV.js"
+        },
+        {
+            "key": "dr_酷影[V2]",
+            "name": "酷影[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/酷影[V2].jsd"
+        },
+        {
+            "key": "dr_酷狗MV",
+            "name": "酷狗MV",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/酷狗MV.js"
+        },
+        {
+            "key": "dr_酷酷[V2]",
+            "name": "酷酷[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/酷酷[V2].jsd"
+        },
+        {
+            "key": "dr_量子影视",
+            "name": "量子影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/量子影视.js"
+        },
+        {
+            "key": "dr_量子资源",
+            "name": "量子资源",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/量子资源.js"
+        },
+        {
+            "key": "dr_金曼影视",
+            "name": "金曼影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/金曼影视.js"
+        },
+        {
+            "key": "dr_鑫鑫[V2]",
+            "name": "鑫鑫[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/鑫鑫[V2].js"
+        },
+        {
+            "key": "dr_阿布影院",
+            "name": "阿布影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/阿布影院.js"
+        },
+        {
+            "key": "dr_零度影视",
+            "name": "零度影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/零度影视.jsd"
+        },
+        {
+            "key": "dr_音悦网",
+            "name": "音悦网",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/音悦网.jsd"
+        },
+        {
+            "key": "dr_风车动漫",
+            "name": "风车动漫",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/风车动漫.jsd"
+        },
+        {
+            "key": "dr_飞云[V2]",
+            "name": "飞云[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/飞云[V2].jsd"
+        },
+        {
+            "key": "dr_飞兔影视",
+            "name": "飞兔影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/飞兔影视.js"
+        },
+        {
+            "key": "dr_飞飞影视",
+            "name": "飞飞影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/飞飞影视.jsd"
+        },
+        {
+            "key": "dr_饭团影视",
+            "name": "饭团影视",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/饭团影视.jsd"
+        },
+        {
+            "key": "dr_首播影院",
+            "name": "首播影院",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/首播影院.jsd"
+        },
+        {
+            "key": "dr_骚火电影",
+            "name": "骚火电影",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/骚火电影.js"
+        },
+        {
+            "key": "dr_鸭奈飞",
+            "name": "鸭奈飞",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/鸭奈飞.jsd"
+        },
+        {
+            "key": "dr_鸭奈飞[V2]",
+            "name": "鸭奈飞[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/鸭奈飞[V2].jsd"
+        },
+        {
+            "key": "dr_鸭鸭[V2]",
+            "name": "鸭鸭[V2]",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/鸭鸭[V2].jsd"
+        },
+        {
+            "key": "dr_麦豆",
+            "name": "麦豆",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/麦豆.jsd"
+        },
+        {
+            "key": "dr_麦豆com",
+            "name": "麦豆com",
+            "type": 3,
+            "api": "https://agit.ai/Mr.X/Taoist/raw/branch/main/libs/drpy2.min.js",
+            "ext": "https://agit.ai/Mr.X/Taoist/raw/branch/main/js/麦豆com.jsd"
+        },
+
+     
+        {
+            "key": "玩偶",
+            "name": "玩偶4K",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+            "token": "影視天下第一",
+            "filter": "https://agit.ai/Mr.X/FM/raw/branch/main/json/wogg.json"
+          }
+        },
+        {
+            "key": "七夜",
+            "name": "七夜4K",
+            "type": 3,
+            "api": "csp_Dovx",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "易搜",
+            "name": "易搜4K",
+            "type": 3,
+            "api": "csp_YiSo",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "雲搜",
+            "name": "雲搜4K",
+            "type": 3,
+            "api": "csp_UpYun",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "盤搜",
+            "name": "盤搜4K",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "紙條搜",
+            "name": "紙條搜4K",
+            "type": 3,
+            "api": "csp_XiaoZhiTiao",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "盤搜索",
+            "name": "盤搜索4K",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "找資源",
+            "name": "找資源4K",
+            "type": 3,
+            "api": "csp_Zhaozy",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": "影視天下第一$$$YSTV$$$tv123456"
+        },
+        {
+            "key": "push_agent",
+            "name": "推送",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "应用商店",
+            "name": "应用商店",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "https://agit.ai/Mr.X/java/raw/branch/master/market.json"
+        }
+
+  ],
+
+
+
+  "lives":[
+          {
+            "name":"live",
+            "type":0,
+            "pass": true,
+            "url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+            "epg":"https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+          },
+          {
+            "name": "TXT",
+            "type":0,
+            "pass": true,
+            "url": "https://xhdwc.tk/tvlive.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+          },
+          {
+            "name": "iTV",
+            "type":0,
+            "pass": true,
+            "url": "https://agit.ai/hu/sj/raw/branch/master/njyy.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+          },
+          { 
+            "name":"M3U",
+            "type":0,
+            "pass": true,
+            "url":"https://agit.ai/Mr.X/TVm3u/raw/branch/main/Gather.m3u",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+          }
+          ],
+
+//去除视频广告插播
+    "m3u8ads": [
+        {
+            "name": "过",
+            "hosts": [
+                "https://vip.ffzy",
+                "https://vip.lz",
+                "https://hd.lz"
+            ],
+            "rules": [
+                {
+                    "regexp": "ts\\r*\\n*#EXT-X-DISCONTINUITY[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                    "replace": "ts"
+                }
+            ]
+        }
+    ],
+
+
+
+  "parses": [
+   {"name":"解析聚合","type":3,"url":"Demo"},
+   {"name":"Web解析聚合","type":3,"url":"Web"},
+   {"name":"Json并发","type":2,"url":"Parallel"},
+   {"name":"Json轮询","type":2,"url":"Sequence"},
+ 
+   {"name":"2S","type":0,"url":"https://jx.2s0.cn/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku", "优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+ 
+   {"name":"虾米","type":0,"url":"https://jx.xmflv.cc/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"云播","type":0,"url":"https://vip.lianfaka.com/vip/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"比邻","type":0,"url":"https://video.vyuyun.com/api.php?action=json&url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"DM","type":0,"url":"https://www.dmplay.xyz/d?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"ovvo","type":0,"url":"https://json.ovvo.pro/jx.php?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"bozrc","type":0,"url":"https://jx.bozrc.com:4433/player/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"盘古","type":0,"url":"https://www.pangujiexi.com/pangu/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku", "优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+ 
+   {"name":"冰豆","type":0,"url":"https://bd.jx.cn/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku", "优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+ 
+   {"name":"剖云","type":0,"url":"https://www.pouyun.com/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"完美","type":0,"url":"https://j.gqing.vip/player/ec.php?code=qw&if=1&url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku", "优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+ 
+   {"name":"playm3u8","type":0,"url":"https://www.playm3u8.cn/jiexi.php?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"yemu","type":0,"url":"https://www.yemu.xyz/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"B站","type":0,"url":"https://jx.playerjy.com/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"jsonplayer","type":0,"url":"https://jx.jsonplayer.com/player/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"8090","type":0,"url":"https://www.8090g.cn/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku", "优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+ 
+   {"name":"xmflv","type":0,"url":"https://jx.xmflv.com/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"BL","type":0,"url":"https://svip.bljiex.cc/?v=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"ckplayer","type":0,"url":"https://www.ckplayer.vip/jiexi/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"m3u8tv","type":0,"url":"https://jx.m3u8.tv/jiexi/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"小七","type":0,"url":"https://2.08bk.com/?v=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"云解析","type":0,"url":"https://yparse.ik9.cc/index.php?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}},
+ 
+   {"name":"醉仙","type":0,"url":"https://jx.zui.cm/?url=",
+"ext":{	"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷", "mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩", "哔哩"]}}
+ 
+],
+ 
+  "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","csm3u8"],
+ 
+  "ijk": [
+   {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-rangeupport","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurateeek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
+ 
+   {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-rangeupport","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurateeek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}],
+ 
+ 
+   "doh":[
+{"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
+{"name":"Cloudflare","url":"https://cloudflare-dns.com/dns-query","ips":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},
+{"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]},{"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},{"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
+ 
+   "rules":[
+{"name": "廣告","hosts": ["."],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:15,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+","#EXTINF.*?\\s+.*?muguacdn.*?\\.ts\\s+"]},
+{"name":"磁力广告","hosts":["magnet"],"regex":["更多","社 區","x u u","最 新","最新","直 播","更 新","社 区","有趣","有 趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
+{"name":"极速","hosts":["vip.js","hd.js"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:15,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"星星","hosts":["aws.ulivetv.net"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{name:"暴风广告",hosts:["s5.bfzycdn"],regex:["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"量子","hosts":["vip.lz","hd.lz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"乐猪","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"蚂蚁","hosts":["v.cdnlz."],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"name":"蚂蚁","hosts":["v\\.cdnlz.*\\.com"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"name":"农民","hosts":["toutiaovod.com"],"regex":["video/tos/cn"]},
+{"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
+{"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]},
+{"host": "*","rule": ["iesdouyin.com/aweme","video_id="]},
+{"host": "*","rule": ["default.365yg.com"]},
+{"host":"www.djuu.com","rule":["mp4.djuu.com"]},
+{"host":"www.tingxiaoshuo.cc","rule":["baidupcs.com","/file/"]},
+{"host":"www.tingxiaoshuo.cc","rule":["365ting.com"]},
+{"host":"www.tingxiaoshuo.cc","rule":["tingshijie.com"]},
+{"host":"www.tingxiaoshuo.cc","rule":["xmcdn.com"]},
+{"host":"www.tingxiaoshuo.cc","rule":["vb.wting.info","token="]},
+{"host": "www.agemys.cc","rule": ["cdn-tos","obj/tos-cn"]},
+{"host": "www.sharenice.net","rule": ["http.*?/play.{0,3}\\?[^url]{2,8}=.*"]},
+{"host": "www.sharenice.net","rule": ["qianpailive.com","vid="]},
+{"host":"*","rule":["douyinvod.com", "/video/tos/cn/"]},
+{"host": "*","rule": ["huoshan.com","/item/video/"]},
+{"host":"*", "rule":["aliyundrive.net", "response-content-disposition=", ".m3u8"]},
+{"host":"*", "rule":["aliyundrive.net", "response-content-disposition=", ".mp4"]},
+{"host":"*", "rule":["aliyundrive.net", "response-content-disposition=", ".mkv"]},
+{"host":"*", "rule":["/m3u8.php?path=", ".m3u8"]},
+{"host":"*", "rule":["/API.php?time=", "key=", "path=", ".m3u8"]},
+{"host": "*","rule": ["http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*"]},
+{"host": "*","rule": ["http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"]}],
+
+
+  "ads": ["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","mc.usihnbcq.cn","mg.g1mm3d.cn","mscs.svaeuzh.cn","cnzz.hhttm.top","tp.vinuxhome.com","cnzz.mmstat.com","www.baihuillq.com","s23.cnzz.com","z3.cnzz.com","c.cnzz.com","stj.v1vo.top","z12.cnzz.com","img.mosflower.cn","tips.gamevvip.com","ehwe.yhdtns.com","xdn.cqqc3.com","www.jixunkyy.cn","sp.chemacid.cn","hm.baidu.com","s9.cnzz.com","z6.cnzz.com","um.cavuc.com","mav.mavuz.com","wofwk.aoidf3.com","z5.cnzz.com","xc.hubeijieshikj.cn","tj.tianwenhu.com","xg.gars57.cn","k.jinxiuzhilv.com","cdn.bootcss.com","ppl.xunzhuo123.com","xomk.jiangjunmh.top","img.xunzhuo123.com","z1.cnzz.com","s13.cnzz.com","xg.huataisangao.cn","z7.cnzz.com","xg.huataisangao.cn","z2.cnzz.com","s96.cnzz.com","q11.cnzz.com","thy.dacedsfa.cn","xg.whsbpw.cn","s19.cnzz.com","z8.cnzz.com","s4.cnzz.com","f5w.as12df.top","ae01.alicdn.com","www.92424.cn","k.wudejia.com","vivovip.mmszxc.top","qiu.xixiqiu.com","cdnjs.hnfenxun.com","cms.qdwght.com"],
+
+  "wallpaper":"http://饭太硬.ga/深色壁纸/api.php",
+
+
+  "spider":"https://agit.ai/Mr.X/FM/raw/branch/main/jar/custom_spider.jar"
+}

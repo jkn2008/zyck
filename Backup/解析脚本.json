@@ -1,0 +1,160 @@
+﻿// ==UserScript==
+// @name         🎬追剧系列--全网视频破解（精简版）
+// @version      1.0.4
+
+(function () {
+  "use strict";
+
+  var style = document.createElement("style");
+  style.textContent = `
+        ::-webkit-scrollbar {
+            width: 10px !important;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #C1C1C1 !important;
+            border-radius: 10px !important;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #9e9e !important;
+        }
+
+        .no-select {
+            user-select: none;
+        }
+
+        .button-container {
+            position: fixed;
+            top: 50%;
+            left: 60px;
+            transform: translate(0, -50%);
+            z-index: 99999999;
+            display: none;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-gap: 10px;
+        }
+
+        .jx-button {
+            background: #ca985a;
+            border: 0;
+            padding: 0 25px;
+            height: 30px;
+            padding:0 10px;
+            color: #fff;
+            cursor:pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        .jx-button:hover {
+            background: #f3c58c;
+            transform: scale(1.1);
+        }
+    `;
+
+  document.head.appendChild(style);
+
+  var YQ_cube = document.createElement("div");
+  YQ_cube.className = "no-select";
+  YQ_cube.style.cssText = `
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #ca985a;
+        position: fixed;
+        left: 0;
+        top: 50%;
+        cursor: pointer;
+        z-index: 99999999;
+        transform: translate(0, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+        box-shadow: rgb(0 0 0 / 30%) 0px 2px 5px;
+    `;
+
+  YQ_cube.textContent = "解析";
+  YQ_cube.title = "公众号：软件小邓";
+
+  document.body.appendChild(YQ_cube);
+
+  // 引入接口
+  var Apilist = [
+{ name: "虾米①", url: "https://jx.xmflv.com/?url=" },
+{ name: "虾米②", url: "https://jx.xmflv.com/?url=" },
+{ name: "阳途", url: "https://jx.yangtu.top?url=" },
+{ name: "BL", url: "https://svip.bljiex.cc/?v=" },
+{ name: "零点", url: "http://www.jzmhtt.com/zdy/vip/?url=" },
+{ name: "夜幕", url: "https://www.yemu.xyz/?url=" },
+{ name: "8090", url: "https://www.8090g.cn/?url=" },
+{ name: "OVVO", url: "https://json.ovvo.pro/jx.php?url=" },
+{ name: "VIP", url: "https://www.mfyy8.com/mf/analysis.php?v=" },
+{ name: "弹幕", url: "https://dmjx.m3u8.tv/?url=" },
+{ name: "M3U8①", url: "https://jx.m3u8.tv/jiexi/?url=" },
+{ name: "M3U8②", url: "https://jx.m3u8.tv/jx/jx.php?url=" },
+{ name: "JSON", url: "https://jx.jsonplayer.com/player/?url=" },
+{ name: "777", url: "https://jx.777jiexi.com/player/?url=" },
+{ name: "PLAY", url: "https://www.playm3u8.cn/jiexi.php?url=" },
+{ name: "B站", url: "https://jx.playerjy.com/?url=" },
+{ name: "2S", url: "https://jx.2s0.cn/player/?url=" },
+{ name: "CK", url: "https://www.ckplayer.vip/jiexi/?url=" },
+{ name: "DM", url: "https://www.dmplay.xyz/d?url=" },
+{ name: "比邻", url: "https://video.vyuyun.com/api.php?action=json&url=" },
+{ name: "醉仙①", url: "https://jx.zui.cm/?url=" },
+{ name: "醉仙②", url: "https://json.zui.cm/?url=" },
+{ name: "盘古", url: "https://www.pangujiexi.com/pangu/?url=" },
+  ];
+
+  var buttonContainer = document.createElement("div");
+  buttonContainer.className = "button-container";
+
+  Apilist.forEach(function (api) {
+    var button = document.createElement("button");
+    button.className = "jx-button";
+    button.textContent = api.name;
+    button.addEventListener("click", function () {
+      // 处理按钮点击事件，跳转到解析页面
+      window.open(api.url + window.location.href, "_blank");
+    });
+    buttonContainer.appendChild(button);
+  });
+
+  document.body.appendChild(buttonContainer);
+  var flag = 1;
+  YQ_cube.addEventListener("click", function () {
+    // 检查是否已同意协议
+    var agreedToTerms = localStorage.getItem("agreedToTerms");
+    // 如果未同意协议，显示协议弹窗
+    if (!agreedToTerms) {
+      var termsPopup = confirm(
+        "免责声明：1、视频解析中所用到的解析接口来自于网络，版权问题请联系相关解析接口所有者！2、为创造良好的创作氛围，请大家支持正版！3、脚本仅用于学习，切勿用于任何商业等其它用途！4、个别解析线路带有可选的额外收费提速功能，这是线路行为，与脚本作者无关。5、如发现有线路含有广告，请千万不要相信，并请及时反馈，我会第一时间移除该线路。6、点击确定，即表明你已经明确使用脚本可能带来的风险，且愿意自行承担相关风险，对于风险网站不承担任何责任！--以上内容请知晓！"
+      );
+      // 如果用户同意，设置同意标志并继续执行脚本
+      if (termsPopup) {
+        localStorage.setItem("agreedToTerms", "true");
+      } else {
+        alert("您取消了协议，脚本无法使用！确定后会恢复正常！");
+        return;
+      }
+    }
+
+    if (flag === 1) {
+      buttonContainer.style.display = "block";
+      YQ_cube.innerHTML = "隐藏";
+      flag = 0;
+    } else {
+      buttonContainer.style.display = "none";
+      YQ_cube.innerHTML = "解析";
+      flag = 1;
+    }
+  });
+})();
