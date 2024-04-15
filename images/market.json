@@ -1,0 +1,247 @@
+﻿[
+  {
+    "name": "推荐",
+    "list": [
+      {
+        "name": "接口推荐",        
+        "url": "https://agit.ai/Mr.X/java/raw/branch/master/images/在线接口.json",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/000.jpg"
+      }
+    ]
+  },
+    {
+    "name": "TV软件",
+    "list": [
+      {
+        "name": "MX_Player",
+        "url": "https://cloud.lxweb.cn/f/K0QeiX/MXPlayer.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/008.png"
+      },      
+      {
+        "name": "小白文件管理器",
+        "url": "https://cloud.lxweb.cn/f/kAqyFp/小白文件管理器_2.8.0.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/013.png"
+      },
+      {
+        "name": "MiX文件管理器",
+        "url": "https://cloud.lxweb.cn/f/p6J9se/MiXplorer.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/006.jpeg"
+      },
+      {
+        "name": "SmartTube TV",
+        "url": "https://cloud.lxweb.cn/f/yzzVCE/smarttube_stable.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/015.png"
+      },      
+      {
+        "name": "v2rayNG",
+        "url": "https://cloud.lxweb.cn/f/8b8Xs1/v2rayNG_1.8.15_armeabi-v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/014.jpg"
+      },            
+      {
+        "name": "小盒精灵",
+        "url": "https://cloud.lxweb.cn/f/WZAotB/小盒精灵.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/011.png"
+      },      
+      {
+        "name": "游戏",
+        "url": "https://cloud.lxweb.cn/f/B0yPF9/TV-GAME.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/010.jpg"
+      },      
+      {
+        "name": "KTV点唱",
+        "url": "https://cloud.lxweb.cn/f/d8jrf2/KTV_30.2.2.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/012.jpeg"
+      },
+      {
+        "name": "家庭KTV",
+        "url": "https://cloud.lxweb.cn/f/A6Eyca/KTV.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/009.jpeg"
+      },
+      {
+        "name": "TV浏览器",
+        "url": "https://cloud.lxweb.cn/f/6pwxhw/BrowseHere.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/016.png"
+      },                        
+      {
+        "name": "我的电视(通用)",        
+        "url": "https://cloud.lxweb.cn/f/ZrgNFz/my-tv-v1.7.2.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/005.jpg"
+      },
+      {
+        "name": "我的电视(安卓5及以上)",        
+        "url": "https://cloud.lxweb.cn/f/b18VUp/my-tv-v1.6.7.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/005.jpg"
+      }      
+    ]
+  },
+  {
+    "name": "影视FMi开源版",
+    "list": [
+      {
+        "name": "电视-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/fongmi/apk/dev/leanback-java-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "电视-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/fongmi/apk/dev/leanback-java-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "电视-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/fongmi/apk/dev/leanback-python-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "电视-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/fongmi/apk/dev/leanback-python-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "手机-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/fongmi/apk/dev/mobile-java-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "手机-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/fongmi/apk/dev/mobile-java-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "手机-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/fongmi/apk/dev/mobile-python-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "手机-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/fongmi/apk/dev/mobile-python-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v8a"
+      }
+    ]
+  },  
+  {
+    "name": "影视OK正式版",
+    "list": [
+      {
+        "name": "电视-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/release/leanback-java-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "电视-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/release/leanback-java-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "电视-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/release/leanback-python-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "电视-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/release/leanback-python-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "手机-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/release/mobile-java-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "手机-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/release/mobile-java-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "手机-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/release/mobile-python-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "手机-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/release/mobile-python-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v8a"
+      }
+    ]
+  },
+  {
+    "name": "影视OK内测版",
+    "list": [
+      {
+        "name": "电视-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/dev/leanback-java-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "电视-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/dev/leanback-java-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "电视-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/dev/leanback-python-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "电视-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/dev/leanback-python-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "手机-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/dev/mobile-java-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "手机-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/dev/mobile-java-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "手机-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/dev/mobile-python-armeabi_v7a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "手机-py",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/dev/mobile-python-arm64_v8a.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/002.jpg",
+        "version": "v8a"
+      }
+    ]
+  },
+  {
+    "name": "影视OK4.x版",
+    "list": [
+      {
+        "name": "电视-java",
+        "url": "https://agit.ai/Mr.X/Release/raw/branch/main/apk/kitkat/leanback.apk",
+        "icon": "https://agit.ai/Mr.X/java/raw/branch/master/images/001.jpg",
+        "version": "v7a"
+      }
+    ]
+  }
+]
