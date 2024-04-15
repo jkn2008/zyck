@@ -1,0 +1,14 @@
+﻿{
+                "主页url": "https://www.jagcys.com/",
+                "副标题": "pic-text text-right\">&&</b>",
+                "搜索模式": "1",
+                "搜索url": "https://www.jagcys.com/vodsearch.html?wd={wd}",
+                "图片": "data-original=\"&&\"",
+                "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "搜索数组": "module-card-item-class\">&&</a>",
+                "分类": "电影$dianying#电视剧$dsj#动漫$dongman#综艺$zongyi#体育$tiyusaishi",
+                "分类url": "https://www.jagcys.com/vodshow/{cateId}/area/{area}/class/{class}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
+}

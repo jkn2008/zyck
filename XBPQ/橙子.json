@@ -1,0 +1,14 @@
+﻿{
+                "主页url": "https://www.ork.ink/",
+                "副标题": "pic-text text-right\">&&</b>",
+                "搜索模式": "1",
+                "搜索url": "https://www.ork.ink/vodsearch/-------------.html?wd={wd}",
+                "图片": "data-original=\"&&\"",
+                "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "线路数组": "data-dropdown-value=&&</div>[排序:FF>iK>LZ>SO][不包含:NB(自建)#爱奇艺#腾讯#优酷#芒果#哔哩哔哩]",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$42",
+                "分类url": "https://www.ork.ink/show/{cateId}---{class}--------{year}.html"
+            }
