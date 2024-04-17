@@ -7,10 +7,7 @@
 				"标题": "title=\"&&\"",
 				"副标题": "note\">&&</div>",
 				"嗅探词": ".mp4#.m3u8#v3.douyinvod",
-				"过滤词": "/player/#/index/#video.bj.bcebos.com#1000_b_video",
 				"图片": "data-original=\"&&\"",
-				"播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-				"链接": "href=\"&&\"",
 				"分类url": "http://www.sxpxsm.com.cn/frim/{cateId}.html",
-				"分类": "电影$1#电视剧$2#动漫$4#综艺$3",
+				"分类": "电影$1#电视剧$2#动漫$4#综艺$3"
 }
