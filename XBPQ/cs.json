@@ -3,7 +3,7 @@
                 "副标题": "pic-text text-right\">&&</b>",
                 "图片": "data-original=\"&&\"",
                 "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
-                "播放数组": "<div class=\"d-play-list num-tab\">",
+                "播放数组": "<div class=\"d-play-list num-tab&&</div>",
 	        "播放列表": "<a&&</a>",
                 "播放链接": "href=\"&&\"",
                 "跳转播放链接": "var now=\"&&\"", 
