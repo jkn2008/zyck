@@ -13,30 +13,6 @@
     "name": "TV软件",
     "list": [            
       {
-        "name": "电视py32位",
-        "url": "https://cloud.lxweb.cn/f/MJqJHG/%E5%BD%B1%E8%A7%86TV-python_v7a%28%E6%89%8B%E6%9C%BA32%E4%BD%8D%29.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "典藏2.3.0版"
-      },
-      {
-        "name": "电视py64位",
-        "url": "https://cloud.lxweb.cn/f/62xduw/%E5%BD%B1%E8%A7%86TV-python_v8a%28%E7%94%B5%E8%A7%8664%E4%BD%8D%29.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "典藏2.3.0版"
-      },
-      {
-        "name": "手机py32位",
-        "url": "https://cloud.lxweb.cn/f/bwrAhp/%E5%BD%B1%E8%A7%86TV-python_v7a%28%E7%94%B5%E8%A7%8632%E4%BD%8D%29.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "典藏2.3.0版"
-      },
-      {
-        "name": "手机py64位",
-        "url": "https://cloud.lxweb.cn/f/qD6mhe/%E5%BD%B1%E8%A7%86TV-python_v8a%20%28%E6%89%8B%E6%9C%BA64%E4%BD%8D%29.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "典藏2.3.0版"
-      },
-      {
         "name": "MX_Player",
         "url": "https://cloud.lxweb.cn/f/K0QeiX/MXPlayer.apk",
         "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/008.png"
@@ -101,6 +77,30 @@
   {
     "name": "影视FMi正式版",
     "list": [
+      {
+        "name": "电视py32位",
+        "url": "https://cloud.lxweb.cn/f/MJqJHG/%E5%BD%B1%E8%A7%86TV-python_v7a%28%E6%89%8B%E6%9C%BA32%E4%BD%8D%29.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
+        "version": "典藏2.3.0版"
+      },
+      {
+        "name": "电视py64位",
+        "url": "https://cloud.lxweb.cn/f/62xduw/%E5%BD%B1%E8%A7%86TV-python_v8a%28%E7%94%B5%E8%A7%8664%E4%BD%8D%29.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
+        "version": "典藏2.3.0版"
+      },
+      {
+        "name": "手机py32位",
+        "url": "https://cloud.lxweb.cn/f/bwrAhp/%E5%BD%B1%E8%A7%86TV-python_v7a%28%E7%94%B5%E8%A7%8632%E4%BD%8D%29.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
+        "version": "典藏2.3.0版"
+      },
+      {
+        "name": "手机py64位",
+        "url": "https://cloud.lxweb.cn/f/qD6mhe/%E5%BD%B1%E8%A7%86TV-python_v8a%20%28%E6%89%8B%E6%9C%BA64%E4%BD%8D%29.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
+        "version": "典藏2.3.0版"
+      },
       {
         "name": "电视-java",
         "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/leanback-java-armeabi_v7a.apk",
