@@ -74,10 +74,10 @@
       }      
     ]
   },
-  {
-    "name": "影视FMi正式版",
-    "list": [
-      {
+ {
+    "name": "蜂蜜影视TV典藏版",
+    "list": [   
+            {
         "name": "电视py32位",
         "url": "https://cloud.lxweb.cn/f/MJqJHG/%E5%BD%B1%E8%A7%86TV-python_v7a%28%E6%89%8B%E6%9C%BA32%E4%BD%8D%29.apk",
         "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
@@ -100,7 +100,12 @@
         "url": "https://cloud.lxweb.cn/f/qD6mhe/%E5%BD%B1%E8%A7%86TV-python_v8a%20%28%E6%89%8B%E6%9C%BA64%E4%BD%8D%29.apk",
         "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
         "version": "典藏2.3.0版"
-      },
+      }
+    ]
+  },  
+  {
+    "name": "影视FMi正式版",
+    "list": [
       {
         "name": "电视-java",
         "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/leanback-java-armeabi_v7a.apk",
