@@ -63,15 +63,10 @@
         "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/016.png"
       },                        
       {
-        "name": "我的电视(通用)",        
-        "url": "https://cloud.lxweb.cn/f/ZrgNFz/my-tv-v1.7.2.apk",
+        "name": "我的电视",        
+        "url": "https://cloud.lxweb.cn/f/xENYcM/my-tv-v2.1.8.apk",
         "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/005.jpg"
-      },
-      {
-        "name": "我的电视(安卓5及以上)",        
-        "url": "https://cloud.lxweb.cn/f/b18VUp/my-tv-v1.6.7.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/005.jpg"
-      }      
+      }     
     ]
   },
   {
