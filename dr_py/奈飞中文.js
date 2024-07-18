@@ -6,8 +6,8 @@ muban.mxone5.二级.tab_text = 'body--small&&Text';
 var rule = {
     title: '奈飞中文',
     模板: 'mxone5',
-    // host: 'https://www.naifei.io',
-    host: 'https://www.naifei.art',
+    host: 'https://www.naifei.io',
+    // host: 'https://www.naifei.art',
     homeUrl: '/vodshow/id/dyjs.html',
     // url: '/vodshow/id/fyclass/page/fypage.html',
     url: '/vodshow/id/fyfilter.html',
