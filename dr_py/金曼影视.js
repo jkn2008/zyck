@@ -5,8 +5,8 @@ var rule={
     title: '金曼影视',
     模板: 'mxpro',
     host: 'https://www.jinman6.com',
-    // url:'/index.php/vod/show/id/fyclass/page/fypage.html',
-    url: '/index.php/vod/show/id/fyclassfyfilter.html',
+    url:'/index.php/vod/show/id/fyclass/page/fypage.html',
+        // url: '/index.php/vod/show/id/fyclassfyfilter.html',
     filterable: 1,//是否启用分类筛选,
     filter_url: '{{fl.area}}{{fl.by or "/by/time"}}{{fl.class}}{{fl.lang}}{{fl.letter}}/page/fypage{{fl.year}}',
     filter: {
