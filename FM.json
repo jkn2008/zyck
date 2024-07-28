@@ -332,7 +332,7 @@
 
   {"key":"刷剧网","name":"刷剧网","type":3,"api":"csp_XBPQ",            "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt","ext":{"简介":"小林子为您剧情介绍: +bottom-detail\"&&</p>","分类url":"https://www.shuajuw.com/Show/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"国产剧$13#电视剧$2#电影$1#动漫$4#动画电影$22"}},
 
-{ "key": "hbo影视", "name": "hbo影视", "type":3,"api":"csp_XBPQ", "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt","ext": {"分类url":"https://www.hbotv1.com/{cateId}/index_{catePg}.html[https://www.hbotv1.com/{cateId}/index.html]","播放链接":"href=\'&&\'","播放链接前缀":"https://www.hbotv1.com","分类":"电视剧$tv#电影$movie#动漫$cartoon#综艺$variety"}},
+
 
 { "key": "柯柯影视", "name": "柯柯影视", "type":3,"api":"csp_XBPQ", "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt", "ext": {"简介":"小林子为您剧情介绍:+style=\"display: none;\"&&</span>","数组":"<li>&&</li>","副标题":"pic-text text-right\">&&</span>","线路数组":"#playlist&&</a>","搜索数组":"col-md-6 col-sm-4 col-xs-3\">&&</li>","分类url":"http://www.kmxibanyayu.com/vs/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"短剧$duanju#国产剧$guochanju#电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi#解说$dianyingjieshuo"}},
 
