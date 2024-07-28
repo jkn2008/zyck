@@ -10,6 +10,57 @@
        "searchable": 0,
        "changeable": 0
     },
+            {
+            "key": "brovod",
+            "name": "兄弟影视",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
+            "ext": {
+                "主页url": "https://www.brovod.com/",
+                "副标题": "pic-text text-right\">&&</b>",
+                "图片": "data-original=\"&&\"",
+                "嗅探词": "https://api.xdys.vip/lx/video.php?r=#.m3u8#.m3u8?",
+                "过滤词": "/jx.xdys.vip/zjm3/xdad.m3u8",
+                "搜索url": "https://www.brovod.com/ss/-------------/?wd={wd}",
+                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
+                "线路标题": "<span>&&</small>[替换:</span><small>>>✮更新]",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$6",
+                "分类url": "https://www.brovod.com/show/{cateId}-{area}--{class}-{lang}----{catePg}---{year}/"
+        }
+        },
+        {
+            "key": "胖虎影视",
+            "name": "胖虎影视",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
+            "ext": {
+                "主页url": "https://www.phyt.net/",
+                "副标题": "pic-text text-right\">&&</b>",
+                "图片": "data-original=\"&&\"",
+                "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+                "过滤词": "/cdn.physvod.com/#116.m3u8",
+                "搜索url": "https://www.phyt.net/phsch.html?wd={wd}",
+                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
+                "线路数组": "data-dropdown-value=&&</div>",
+                "线路标题": "<span>&&</small>[替换:</span><small>>>✮更新]",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$7",
+                "分类url": "https://www.phyt.net/vodshow/{cateId}/area/{area}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html"
+        }
+        },
     {
        "key": "push_agent",
        "name": "推送",
