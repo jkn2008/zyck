@@ -344,7 +344,31 @@
 { "key": "追影影视", "name": "追影影视", "type":3,"api":"csp_XBPQ","jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt", "ext": {"分类url":"http://svip.zhuiying.cyou/index.php/vod/type/id/{cateId}/page/{catePg}.html","分类":"短剧$24#电视剧$21#电影$20#动漫$23#综艺$22"}},
 
 
-
+        {
+            "key": "brovod",
+            "name": "兄弟影视",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.brovod.com/",
+                "副标题": "pic-text text-right\">&&</b>",
+                "图片": "data-original=\"&&\"",
+                "嗅探词": "https://api.xdys.vip/lx/video.php?r=#.m3u8#.m3u8?",
+                "搜索url": "https://www.brovod.com/ss/-------------/?wd={wd}",
+                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
+                "播放列表": "<a&&/a>",
+                "播放标题": "<span>&&</span>",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$6",
+                "分类url": "https://www.brovod.com/show/{cateId}--------{catePg}---{year}/"
+        },
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt"
+        },
         {
             "key": "网飞TV",
             "name": "网飞TV",
