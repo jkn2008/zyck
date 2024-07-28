@@ -872,16 +872,16 @@
             "api": "csp_XBPQ",
            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
             "ext": {
-                "主页url": "https://www.77ys.me/",
+                "主页url": "https://www.77ys.live/",
                 "副标题": "pic-text text-right\">&&</b>",
                 "图片": "data-original=\"&&\"",
                 "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
-                "搜索url": "https://www.77ys.me/vodsearch/--.html?wd={wd}",
+                "搜索url": "https://www.77ys.live/vodsearch/--.html?wd={wd}",
                 "影片类型": "<div class=\"module-info-tag\">&&立即播放",
                 "导演": "导演：&&</div>",
                 "主演": "主演：&&</div>",
                 "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
-                "分类url": "https://www.77ys.me/vodshow/{cateId}-{area}-----{catePg}-{year}.html"
+                "分类url": "https://www.77ys.live/vodshow/{cateId}-{area}-----{catePg}-{year}.html"
              }
         },
         {
@@ -909,30 +909,7 @@
                 "分类url": "https://vidhub1.cc/vodshow/{cateId}-{area}-------{catePg}---{year}.html"
              }
         },
-        {
-            "key": "金曼TV",
-            "name": "金曼TV",
-            "type": 3,
-            "changeable": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": "csp_XBPQ",
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
-            "ext": {
-                "主页url": "https://jinman6.com/",
-                "副标题": "pic-text text-right\">&&</b>",
-                "图片": "data-original=\"&&\"",
-                "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
-                "搜索url": "https://jinman6.com/index.php/vod/search.html?wd={wd}",
-                "影片类型": "<div class=\"module-play-list\">&&立即播放",
-                "线路标题": "<span>&&</span>[替换:观看记录>>金曼✮vip1#首页>>金曼✮vip2#哔哩哔哩>>金曼✮vip3#电影>>金曼✮vip4#连续剧>>金曼✮vip5#综艺>>金曼✮vip6#影评资讯>>金曼✮vip7#明星库>>金曼✮vip8#看福利>>金曼✮vip9#伦理金曼✮vip4>>金曼✮vip10#专题>>金曼✮vip11#留言>>金曼✮vip12#最新>>金曼✮vip13]
-                "导演": "导演：&&</div>",
-                "主演": "主演：&&</div>",
-                "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
-                "分类url": "https://jinman6.com/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html"
-        }
-        },
+
         {
             "key": "秋霞电影",
             "name": "秋霞电影",
