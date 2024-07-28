@@ -878,7 +878,6 @@
                 "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
                 "搜索url": "https://jinman6.com/index.php/vod/search.html?wd={wd}",
                 "影片类型": "<div class=\"module-play-list\">&&立即播放",
-                "线路标题": "[替换:看B>>金曼✮]",
                 "导演": "导演：&&</div>",
                 "主演": "主演：&&</div>",
                 "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
