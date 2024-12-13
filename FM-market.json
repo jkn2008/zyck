@@ -1,0 +1,108 @@
+﻿[
+  {
+    "name": "FM正式版",
+    "list": [
+      {
+        "name": "電視-java",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/release/leanback-java-armeabi_v7a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "電視-java",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/release/leanback-java-arm64_v8a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "電視-py",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/release/leanback-python-armeabi_v7a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "電視-py",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/release/leanback-python-arm64_v8a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "手機-java",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/release/mobile-java-armeabi_v7a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "手機-java",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/release/mobile-java-arm64_v8a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "手機-py",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/release/mobile-python-armeabi_v7a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "手機-py",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/release/mobile-python-arm64_v8a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
+        "version": "v8a"
+      }
+    ]
+  },
+  {
+    "name": "FM內測版",
+    "list": [
+      {
+        "name": "電視-java",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/dev/leanback-java-armeabi_v7a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "電視-java",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/dev/leanback-java-arm64_v8a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "電視-py",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/dev/leanback-python-armeabi_v7a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "電視-py",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/dev/leanback-python-arm64_v8a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "手機-java",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/dev/mobile-java-armeabi_v7a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "手機-java",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/dev/mobile-java-arm64_v8a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
+        "version": "v8a"
+      },
+      {
+        "name": "手機-py",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/dev/mobile-python-armeabi_v7a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
+        "version": "v7a"
+      },
+      {
+        "name": "手機-py",
+        "url": "https://p.ntnas.top/https://github.com/FongMi/Release/raw/fongmi/apk/dev/mobile-python-arm64_v8a.apk",
+        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
+        "version": "v8a"
+      }
+    ]
+  }
+]
