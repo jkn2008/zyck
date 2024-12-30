@@ -5,7 +5,7 @@
     homeUrl:'/x/bu/pagesheet/list?_all=1&append=1&channel=choice&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
     detailUrl:'https://node.video.%71%71.com/x/api/float_vinfo2?cid=fyid',
     // searchUrl:'https://node.video.%71%71.com/x/api/msearch?keyWord=**',
-    searchUrl:'/x/search/?q=**&stag=fypage',
+    searchUrl:'/x/search/?q=**&queryFrom=fypage',
     // searchUrl:'http://s.video.qq.com/smartbox?plat=2&ver=0&num=29&otype=json&query=**',
     searchable:2,
     filterable:1,
