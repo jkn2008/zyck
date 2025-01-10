@@ -50,7 +50,7 @@
     
     "播放列表":"<a&&/a>",
     
-    "分类url":"https://www.jukankan.la/vodshow/{cateId}-{catePg}.html;;ak",
+    "分类url":"https://www.jukankan.la/vodtype/{cateId}-{catePg}.html;;ak",
     
     "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
     
