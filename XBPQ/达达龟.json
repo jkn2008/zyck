@@ -50,7 +50,7 @@
     
     "播放列表":"<a&&/a>",
     
-    "分类url":"http://www.dadagui.me/vodshow/{cateId}-{area}-{by}--{lang}----{catePg}---{year}.html;;ak",
+    "分类url":"http://www.dadagui.me/vodtype/{cateId}-{catePg}.html;;ak",
     
     "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
     
