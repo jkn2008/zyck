@@ -1,319 +1,321 @@
-﻿[
-  {
-    "name": "推荐",
-    "list": [
-      {
-        "name": "接口推荐",        
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/在线接口.json",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/000.jpg"
-      }
-    ]
-  },
+[
     {
-    "name": "TV软件",
-    "list": [            
-      {
-        "name": "MX_Player",
-        "url": "https://cloud.lxweb.cn/f/K0QeiX/MXPlayer.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/008.png"
-      },      
-      {
-        "name": "小白文件管理器",
-        "url": "https://cloud.lxweb.cn/f/kAqyFp/小白文件管理器_2.8.0.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/013.png"
-      },
-      {
-        "name": "MiX文件管理器",
-        "url": "https://cloud.lxweb.cn/f/p6J9se/MiXplorer.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/006.jpeg"
-      },
-      {
-        "name": "SmartTube TV",
-        "url": "https://cloud.lxweb.cn/f/yzzVCE/smarttube_stable.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/015.png"
-      },      
-      {
-        "name": "v2rayNG",
-        "url": "https://cloud.lxweb.cn/f/8b8Xs1/v2rayNG_1.8.15_armeabi-v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/014.jpg"
-      },            
-      {
-        "name": "小盒精灵",
-        "url": "https://cloud.lxweb.cn/f/WZAotB/小盒精灵.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/011.png"
-      },      
-      {
-        "name": "游戏",
-        "url": "https://cloud.lxweb.cn/f/B0yPF9/TV-GAME.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/010.jpg"
-      },      
-      {
-        "name": "KTV点唱",
-        "url": "https://cloud.lxweb.cn/f/d8jrf2/KTV_30.2.2.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/012.jpeg"
-      },
-      {
-        "name": "家庭KTV",
-        "url": "https://cloud.lxweb.cn/f/A6Eyca/KTV.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/009.jpeg"
-      },
-      {
-        "name": "TV浏览器",
-        "url": "https://cloud.lxweb.cn/f/6pwxhw/BrowseHere.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/016.png"
-      },                        
-      {
-        "name": "我的电视",        
-        "url": "https://cloud.lxweb.cn/f/xENYcM/my-tv-v2.1.8.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/005.jpg"
-      }     
-    ]
-  },
-  {
-    "name": "影视FMi正式版",
-    "list": [
-      {
-        "name": "电视py32位",
-        "url": "https://cloud.lxweb.cn/f/BezjI9/TV-python_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "典藏2.3.0版"
-      },
-      {
-        "name": "电视py64位",
-        "url": "https://cloud.lxweb.cn/f/p12bie/TV-python_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "典藏2.3.0版"
-      },
-      {
-        "name": "手机py32位",
-        "url": "https://cloud.lxweb.cn/f/AdzWua/mobile-python_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "典藏2.3.0版"
-      },
-      {
-        "name": "手机py64位",
-        "url": "https://cloud.lxweb.cn/f/KgJRcX/mobile-python_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "典藏2.3.0版"
-      },
-      {
-        "name": "电视-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/leanback-java-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "电视-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/leanback-java-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "电视-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/leanback-python-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "电视-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/leanback-python-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "手机-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/mobile-java-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "手机-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/mobile-java-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "手机-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/mobile-python-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "手机-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/mobile-python-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v8a"
-      }
-    ]
-  },   
-  {
-    "name": "影视FMi开源版",
-    "list": [
-      {
-        "name": "电视-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/leanback-java-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "电视-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/leanback-java-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "电视-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/leanback-python-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "电视-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/leanback-python-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "手机-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/mobile-java-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "手机-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/mobile-java-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "手机-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/mobile-python-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "手机-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/mobile-python-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v8a"
-      }
-    ]
-  },  
-  {
-    "name": "影视OK正式版",
-    "list": [
-      {
-        "name": "电视-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-java-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "电视-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-java-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "电视-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "电视-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "手机-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-java-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "手机-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-java-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "手机-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "手机-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v8a"
-      }
-    ]
-  },
-  {
-    "name": "影视OK内测版",
-    "list": [
-      {
-        "name": "电视-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-java-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "电视-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-java-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "电视-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-python-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "电视-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-python-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "手机-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-java-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "手机-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-java-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v8a"
-      },
-      {
-        "name": "手机-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-python-armeabi_v7a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v7a"
-      },
-      {
-        "name": "手机-py",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-python-arm64_v8a.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/002.jpg",
-        "version": "v8a"
-      }
-    ]
-  },
-  {
-    "name": "影视OK4.x版",
-    "list": [
-      {
-        "name": "电视-java",
-        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk",
-        "icon": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jkn2008/zyck/master/images/001.jpg",
-        "version": "v7a"
-      }
-    ]
-  }
+        "name": "推薦",
+        "list": [
+            {
+                "name": "手機-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/release/mobile-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "電視-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/release/leanback-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "4.x電視",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/93fd99c68e7bddc4b903a2fe12fdbd372630610b/apk/kitkat/leanback.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.5.0"
+            },
+            {
+                "name": "手機pro",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/9a18831cb13b2ebcd5419f324da35255059011c6/apk/pro/mobile-pro.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-3.1.1-pro"
+            },
+            {
+                "name": "電視pro",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/9a18831cb13b2ebcd5419f324da35255059011c6/apk/pro/leanback-pro.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-3.1.1-pro"
+            },
+            {
+                "name": "手機-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/829048e03b8ffc7e677f2b781365d69064be551a/apk/release/mobile-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-3.0.6"
+            },
+            {
+                "name": "電視-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/829048e03b8ffc7e677f2b781365d69064be551a/apk/release/leanback-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-3.0.6"
+            }
+        ]
+    },
+    {
+        "name": "正式版",
+        "list": [
+            {
+                "name": "電視-java32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/release/leanback-java-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "電視-java64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/release/leanback-java-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "電視-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/release/leanback-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "電視-py64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/release/leanback-python-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "海信電視专版",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/dev/海信专版.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "電視x5离线版",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/dev/电视版-X5离线.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "手機-java32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/release/mobile-java-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "手機-java64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/release/mobile-java-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "手機-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/release/mobile-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "手機-py64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/cb87e7dc511e81d87f426bbdcdf4bfcf1a3fb514/apk/release/mobile-python-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.7.5"
+            },
+            {
+                "name": "手機pro",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/9a18831cb13b2ebcd5419f324da35255059011c6/apk/pro/mobile-pro.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-3.1.1-pro"
+            },
+            {
+                "name": "手機pro-emu",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/9a18831cb13b2ebcd5419f324da35255059011c6/apk/pro/mobile-emu-pro.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-3.1.1-pro"
+            },
+            {
+                "name": "電視pro",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/9a18831cb13b2ebcd5419f324da35255059011c6/apk/pro/leanback-pro.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-3.1.1-pro"
+            },
+            {
+                "name": "電視-java32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/829048e03b8ffc7e677f2b781365d69064be551a/apk/release/leanback-java-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-3.0.6"
+            },
+            {
+                "name": "電視-java64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/829048e03b8ffc7e677f2b781365d69064be551a/apk/release/leanback-java-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-3.0.6"
+            },
+            {
+                "name": "電視-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/829048e03b8ffc7e677f2b781365d69064be551a/apk/release/leanback-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-3.0.6"
+            },
+            {
+                "name": "電視-py64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/829048e03b8ffc7e677f2b781365d69064be551a/apk/release/leanback-python-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-3.0.6"
+            },
+            {
+                "name": "手機-java32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/829048e03b8ffc7e677f2b781365d69064be551a/apk/release/mobile-java-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-3.0.6"
+            },
+            {
+                "name": "手機-java64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/829048e03b8ffc7e677f2b781365d69064be551a/apk/release/mobile-java-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-3.0.6"
+            },
+            {
+                "name": "手機-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/829048e03b8ffc7e677f2b781365d69064be551a/apk/release/mobile-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-3.0.6"
+            },
+            {
+                "name": "手機-py64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/829048e03b8ffc7e677f2b781365d69064be551a/apk/release/mobile-python-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-3.0.6"
+            }
+        ]
+    },
+    {
+        "name": "內測版",
+        "list": [
+            {
+                "name": "電視-java32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/1a4962430468d0cc97d5616e0acf5eebfe98f634/apk/dev/leanback-java-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-0813"
+            },
+            {
+                "name": "電視-java64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/1a4962430468d0cc97d5616e0acf5eebfe98f634/apk/dev/leanback-java-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-0813"
+            },
+            {
+                "name": "電視-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/1a4962430468d0cc97d5616e0acf5eebfe98f634/apk/dev/leanback-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-0813"
+            },
+            {
+                "name": "電視-py64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/1a4962430468d0cc97d5616e0acf5eebfe98f634/apk/dev/leanback-python-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-0813"
+            },
+            {
+                "name": "海信電視专版",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/1a4962430468d0cc97d5616e0acf5eebfe98f634/apk/dev/海信专版.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-0813"
+            },
+            {
+                "name": "電視x5离线版",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/1a4962430468d0cc97d5616e0acf5eebfe98f634/apk/dev/电视版-X5离线.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-0813"
+            },
+            {
+                "name": "手機-java32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/1a4962430468d0cc97d5616e0acf5eebfe98f634/apk/dev/mobile-java-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-0813"
+            },
+            {
+                "name": "手機-java64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/1a4962430468d0cc97d5616e0acf5eebfe98f634/apk/dev/mobile-java-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-0813"
+            },
+            {
+                "name": "手機-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/1a4962430468d0cc97d5616e0acf5eebfe98f634/apk/dev/mobile-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-0813"
+            },
+            {
+                "name": "手機-py64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/1a4962430468d0cc97d5616e0acf5eebfe98f634/apk/dev/mobile-python-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-0813"
+            },
+            {
+                "name": "電視-java32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/0679e096fb4ab73d46d3d93cd21f1701503bfc5b/apk/dev/leanback-java-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-0"
+            },
+            {
+                "name": "電視-java64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/0679e096fb4ab73d46d3d93cd21f1701503bfc5b/apk/dev/leanback-java-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-0"
+            },
+            {
+                "name": "電視-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/0679e096fb4ab73d46d3d93cd21f1701503bfc5b/apk/dev/leanback-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-0"
+            },
+            {
+                "name": "電視-py64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/0679e096fb4ab73d46d3d93cd21f1701503bfc5b/apk/dev/leanback-python-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-0"
+            },
+            {
+                "name": "手機-java32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/0679e096fb4ab73d46d3d93cd21f1701503bfc5b/apk/dev/mobile-java-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-0"
+            },
+            {
+                "name": "手機-java64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/0679e096fb4ab73d46d3d93cd21f1701503bfc5b/apk/dev/mobile-java-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-0"
+            },
+            {
+                "name": "手機-py32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/0679e096fb4ab73d46d3d93cd21f1701503bfc5b/apk/dev/mobile-python-armeabi_v7a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-0"
+            },
+            {
+                "name": "手機-py64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/0679e096fb4ab73d46d3d93cd21f1701503bfc5b/apk/dev/mobile-python-arm64_v8a.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/ys.jpg",
+                "version": "FM-0"
+            }
+        ]
+    },
+    {
+        "name": "4.x版",
+        "list": [
+            {
+                "name": "電視",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/93fd99c68e7bddc4b903a2fe12fdbd372630610b/apk/kitkat/leanback.apk",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/okys.jpg",
+                "version": "OK-2.5.0"
+            }
+        ]
+    },
+    {
+        "name": "肥羊",
+        "list": [
+            {
+                "name": "Allinone v7-32",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/bcf44fe6472569df1b026f418a12d1677d3b0a32/apk/allinone/v7/allinone",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/feiyang.jpg",
+                "version": "pg20241212-2119"
+            },
+            {
+                "name": "Allinone v8-64",
+                "url": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/bcf44fe6472569df1b026f418a12d1677d3b0a32/apk/allinone/v8/allinone",
+                "icon": "https://p.ntnas.top/https://raw.githubusercontent.com/lystv/fmapp/img/log/feiyang.jpg",
+                "version": "pg20241212-2119"
+            }
+        ]
+    }
 ]
