@@ -1,0 +1,20 @@
+﻿[
+  {
+    "key": "光速",
+    "name": "光速",
+    "type": 3,
+    "api": "https://p.ntnas.top/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/光速.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  }
+  {
+    "key": "胖虎",
+    "name": "胖虎",
+    "type": 3,
+    "api": "https://p.ntnas.top/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/胖虎APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  }
+]
