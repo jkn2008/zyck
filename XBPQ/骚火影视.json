@@ -28,12 +28,6 @@
     
     "线路标题":"+>&&<[替换:1号线路>>骚火专线#2线路>>骚火备用]",
     
-    "跳转播放链接":"<iframe*src=\"&&\"",
-    
-    "二次跳转播放链接":"https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
-    
-    "三次跳转播放链接":"\"url\"*\"&&\"",
-    
     "嗅探词":".m3u8#.mp4#.m3u8?#freeok.mp4",
     
     "分类url":"https://saohuo.org/list/{cateId}-{catePg}.html[https://saohuo.org/list/{cateId}.html];;kdvr1au0",
