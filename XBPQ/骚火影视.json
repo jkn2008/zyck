@@ -3,8 +3,10 @@
     "作者":"天天开心",
     
     "站名":"骚火影视",
+
+    "请求头": "手机",     
     
-    "主页url":"https://saohuo.vip/",
+    "主页url":"https://saohuo.org/",
     
     "简介":"+<p class=\"p_txt show_part\"&&</p>",
     
@@ -34,8 +36,8 @@
     
     "嗅探词":".m3u8#.mp4#.m3u8?#freeok.mp4",
     
-    "分类url":"https://saohuo.vip/list/{cateId}-{catePg}.html[https://saohuo.vip/list/{cateId}.html];;kdvr1au0",
+    "分类url":"https://saohuo.org/list/{cateId}-{catePg}.html[https://saohuo.org/list/{cateId}.html];;kdvr1au0",
 
-    //"分类url":"https://saohuo.vip/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId};;akd",
+    //"分类url":"https://saohuo.org/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId};;akd",
     
     "分类":"电影$1#电视剧$2#韩剧$22#美剧$22#综艺$3#动漫$4"}
