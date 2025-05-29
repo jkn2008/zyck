@@ -1,4 +1,4 @@
-﻿{
+{
     "站名": "可可影视",
     "请求头": "User-Agent$MOBILE_UA",
     "编码": "UTF-8",
@@ -11,10 +11,9 @@
     "分类值": "1&2&4&3&6",
     "数组": "默认--<div class=\"module-item&&</a>||搜索--/detail&&</a>",
     "标题": "title\">&&</div",
-    "图片": "https+://vres.xsefdv.com/vod1/+data-original=\"/vod1/&&\"",
+"图片":"默认--https://vres.xsefdv.com/+data-original=\"/&&\"||搜索--https://vres.xsefdv.com/vod1/vod/+/vod1/vod/&&\"",
     "副标题": "bottom\">&&</span||搜索--tags\">&&</div",
     "链接": "默认--href=\"&&\"||搜索--/detail/+/&&.html\"+.html",
-    "搜索图片": "https+://vres.xsefdv.com/vod1/+data-original=\"/vod1/&&\"",
     "影片年代": "--.html\"*>&&</a",
     "影片地区": "----.html*>&&</a",
     "影片类型": "-----.html*>&&</div",
