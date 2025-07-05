@@ -69,26 +69,6 @@
              "site": "https://www.jiabaide.cn/,https://www.sunnafh.com/,https://jigys.com/,https://zjuys.com/,https://drtys.com/,https://www.czdys.com/"}
       },
       {
-         "key":"剧霸霸",
-         "name":"剧霸霸",
-         "type":3,
-         "api":"https://gh-proxy.com/raw.githubusercontent.com/jkn2008/PyramidStore/refs/heads/main/plugin/html/剧粑粑.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-      },
-      {
-         "key":"荐片",
-         "name":"荐片",
-         "type":3,
-         "api":"https://p.ntnas.top/https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py_jianpian.py",
-         "searchable":1,
-         "filterable":0,
-         "changeable":1
-      },
-      {
          "key": "可可影视",
          "name": "可可影视",
          "type": 3,
@@ -141,6 +121,52 @@
              }
       },
       {
+         "key": "七七影视",
+         "name": "七七影视",
+         "type": 3,
+         "changeable": 1,
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "api": "csp_XBPQ",
+         "jar":"https://p.ntnas.top/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
+         "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+         "ext": {
+                "简介": "class=\"mo-paxs-5px mo-ptxs-0px\">&&</div>",
+                "数组": "<li&&</li>",
+                "图片":"data-original=\"&&\"",
+                "标题":"</a>&&</a>",
+                "副标题":">&&</span>",
+                "链接": "href=\"&&\"",
+                "搜索url": "https://www.77yskp.com/search/?wd={wd}",
+                "播放二次截取":"class=\"bd&&</div>",
+                "播放数组":"<ul&&</ul>",
+                "播放列表":"<a&&</a>",
+                "播放标题":">&&</a>",
+                "线路二次截取":"<h2&&</h2>",
+                "线路数组":"<span&&</span>",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
+                "分类url": "https://www.77yskp.com/mov/{cateId}/area/{area}/by/{by}/page/{catePg}/year/{year}/"
+             }
+      },       
+      {
+         "key": "影视TV",
+         "name": "影视TV",
+         "type": 3,
+         "changeable": 1,
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "api": "csp_XBPQ",
+         "jar":"https://p.ntnas.top/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
+         "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+         "ext": {
+                "简介": "class=\"hl-content-text\">&&</span>",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
+                "分类url": "https://yinshitv.com/vodshow/{cateId}-{area}-{by}--{class}----{catePg}---{year}/"
+             }
+      },      
+      {
          "key": "热播之家",
          "name": "热播之家",
          "type": 3,
@@ -148,6 +174,7 @@
          "searchable": 1,
          "quickSearch": 1,
          "filterable": 1,
+         "jar":"https://p.ntnas.top/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
          "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
          "ext": {
                 "数组": "class=\"myui-vodbox-content\">&&class=\"role\"",
