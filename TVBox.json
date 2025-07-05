@@ -35,31 +35,49 @@
          "filterable": 1
       },
       {
+         "key": "荐片",
+         "name": "荐片",
+         "type": 3,
+         "jar": "https://p.ntnas.top/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",         
+         "api": "csp_Jianpian",
+         "searchable": 1,
+         "changeable": 1,
+         "ext": "https://p.ntnas.top/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
+      },      
+      {
          "key":"小苹果",
          "name":"小苹果",
          "type":3,
-         "api":"https://p.ntnas.top/https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py_pingguo.py",
+         "api":"https://gh-proxy.com/raw.githubusercontent.com/jkn2008/PyramidStore/refs/heads/main/plugin/app/小苹果APP.py",
          "searchable":1,
-         "filterable":0,
-         "changeable":1
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
       },
       {
-         "key":"金牌影院",
-         "name":"金牌影院",
+         "key":"金牌",
+         "name":"金牌",
          "type":3,
-         "api":"https://p.ntnas.top/https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py_jinpai.py",
+         "api":"https://gh-proxy.com/raw.githubusercontent.com/jkn2008/PyramidStore/refs/heads/main/plugin/html/金牌.py",
          "searchable":1,
-         "filterable":0,
-         "changeable":1
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2,
+         "ext":{
+             "site": "https://www.jiabaide.cn/,https://www.sunnafh.com/,https://jigys.com/,https://zjuys.com/,https://drtys.com/,https://www.czdys.com/"}
       },
       {
-         "key":"剧爸爸",
-         "name":"剧爸爸",
+         "key":"剧霸霸",
+         "name":"剧霸霸",
          "type":3,
-         "api":"https://p.ntnas.top/https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py_jubaba.py",
+         "api":"https://gh-proxy.com/raw.githubusercontent.com/jkn2008/PyramidStore/refs/heads/main/plugin/html/剧粑粑.py",
          "searchable":1,
-         "filterable":0,
-         "changeable":1
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
       },
       {
          "key":"荐片",
@@ -123,31 +141,28 @@
              }
       },
       {
-         "key": "剧哥哥",
-         "name": "剧哥哥",
+         "key": "热播之家",
+         "name": "热播之家",
          "type": 3,
-         "changeable": 1,
+         "api": "csp_XBPQ",
          "searchable": 1,
          "quickSearch": 1,
          "filterable": 1,
-         "api": "csp_XBPQ",
-         "jar":"https://p.ntnas.top/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
          "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
          "ext": {
-                "主页url": "https://jugege.la/",
-                "副标题": "pic-text text-right\">&&</b>",
-                "图片": "data-original=\"&&\"",
-                "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
-                "搜索url": "https://jugege.la/vodsearch/-------------.html?wd={wd}",
-                "搜索图片":"https://jugege.la/mxtheme/images/favicon.png",
-                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
-                "线路数组": "data-dropdown-value=&&</div>",
-                "线路标题": "<span>&&</small>[替换:</span><small>>>✮更新]",
-                "导演": "导演：&&</div>",
-                "主演": "主演：&&</div>",
-                "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
-                "分类url": "https://jugege.la/vodshow/{cateId}-{area}-------{catePg}---{year}.html"
-             }
+                "数组": "class=\"myui-vodbox-content\">&&class=\"role\"",
+                "图片": "src=\"&&\"",
+                "标题": "class=\"title\">&&</div>",
+                "副标题": "class=\"tag text-overflow\">&&</div>",
+                "链接": "<a href=\"&&\"",
+                "简介": "label>*&&</div>",
+                "影片类型": "class=\"tags text-overflow\"*>&&</a>",
+                "影片年代": "class=\"item-top\">&&</div>",
+                "导演": "导演:</div>&&</div>",
+                "跳转播放链接": "src=\"&&\"",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$5",
+                "分类url": "https://www.rebovod.com/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html[https://www.rebovod.com/index.php/vod/type/id/{cateId}.html]"
+            }
       }
    ],
    "lives":[
