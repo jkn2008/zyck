@@ -95,8 +95,24 @@
              }
       },      
       {
-         "key": "brovod",
-         "name": "兄弟影视",
+         "key": "奇优影院",
+         "name": "奇优影院",
+         "type": 3,
+         "changeable": 1,
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "api": "csp_XBPQ",
+         "jar":"https://p.ntnas.top/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
+         "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+         "ext": {
+                "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
+                "分类url": "http://qiyoudy4.com/list/{cateId}_{catePg}.html"
+             }
+      },
+      {
+         "key": "好影快看",
+         "name": "好影快看",
          "type": 3,
          "changeable": 1,
          "searchable": 1,
@@ -105,21 +121,14 @@
          "api": "csp_XBPQ",
          "jar":"https://p.ntnas.top/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
          "ext": {
-                "请求头": "手机",
-                "主页url": "https://www.brovod.com/",
-                "副标题": "pic-text text-right\">&&</b>",
-                "图片": "data-original=\"&&\"",
-                "嗅探词": "https://api.xdys.vip/lx/video.php?r=#.m3u8#.m3u8?",
-                "过滤词": "https://dmku.brovod.top/dmad/xdad.m3u8#https://dmku.brovod.top/appdownload/fxt.m3u8",
-                "搜索url": "https://www.brovod.com/ss/-------------/?wd={wd}",
-                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
+                "副标题": "class=\"module-item-note\">&&</div>",
+                "线路数组":"class=\"module-tab-item&&</div>",
                 "线路标题": "<span>&&</small>[替换:</span><small>>>✮更新]",
-                "导演": "导演：&&</div>",
-                "主演": "主演：&&</div>",
-                "分类": "电影$movie#电视剧$tv#动漫$cartoon#综艺$show#短剧$documentary",
-                "分类url": "https://www.brovod.com/show/{cateId}-{area}--{class}-{lang}----{catePg}---{year}/"
+                "播放数组":"class=\"module-play-list&&</div>",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#儿童$58",
+                "分类url": "https://www.hitv.app/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html"
              }
-      },
+      },      
       {
          "key": "七七影视",
          "name": "七七影视",
