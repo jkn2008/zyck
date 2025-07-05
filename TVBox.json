@@ -3,6 +3,15 @@
    "wallpaper":"https://深色壁纸.xxooo.cf/",
    "sites":[
       {
+         "key": "优质影视",
+         "name": "优质影视",
+         "type": 1,
+         "api": " https://api.yzzy-api.com/inc/api_mac10.php",
+         "searchable": 1,
+         "changeable": 1,
+         "categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","台湾剧","韩国剧","欧美剧","香港剧","泰国剧","日本剧","福利","记录片","动画片","海外剧","倫理片","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","搞笑","音乐","影视","汽车","短剧大全","预告片","预告片","体育"]
+      },      
+      {
          "key":"黑木影视",
          "name":"黑木影视",
          "type":1,
@@ -16,17 +25,18 @@
          }
       },
       {
-         "key":"沐辰爱瓜TV",
-         "name":"沐辰爱瓜TV",
-         "type":3,
-         "api":"https://p.ntnas.top/https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py_aigua.py",
-         "searchable":1,
-         "filterable":0,
-         "changeable":1
-      },
+         "key": "瓜子影视",
+         "name": "瓜子影视",
+         "type": 3,
+         "jar": "https://p.ntnas.top/https://raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/svip.jar",
+         "api": "csp_Gz360",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1
+    }
       {
-         "key":"嗷呜小苹果",
-         "name":"嗷呜小苹果",
+         "key":"小苹果",
+         "name":"小苹果",
          "type":3,
          "api":"https://p.ntnas.top/https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py_pingguo.py",
          "searchable":1,
@@ -34,8 +44,8 @@
          "changeable":1
       },
       {
-         "key":"嗷呜金牌影院",
-         "name":"嗷呜金牌影院",
+         "key":"金牌影院",
+         "name":"金牌影院",
          "type":3,
          "api":"https://p.ntnas.top/https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py_jinpai.py",
          "searchable":1,
@@ -43,43 +53,13 @@
          "changeable":1
       },
       {
-         "key":"嗷呜剧爸爸",
-         "name":"嗷呜剧爸爸",
+         "key":"剧爸爸",
+         "name":"剧爸爸",
          "type":3,
          "api":"https://p.ntnas.top/https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py_jubaba.py",
          "searchable":1,
          "filterable":0,
          "changeable":1
-      },
-      {
-         "key":"独播库",
-         "name":"独播库",
-         "type":3,
-         "api":"csp_WexdubokuGuard",
-         "jar":"https://raw.githubusercontent.com/cyalias/mytvs-github/387dcc33d090319ec8ef3b70f475a8a0fe0ae070/tvboxqq/%E7%8E%8B%E4%BA%8C%E5%B0%8F/spider.jar",
-         "searchable":1,
-         "filterable":0,
-         "changeable":1
-      },
-      {
-         "key":"沐辰欧乐影院",
-         "name":"沐辰欧乐影院",
-         "type":4,
-         "api":"https://py.doube.eu.org/spider?site=OleVod",
-         "searchable":1,
-         "quickSearch":0,
-         "filterable":0,
-         "changeable":1
-      },
-      {
-         "key":"Qile优视频",
-         "name":"Qile优视频",
-         "type":3,
-         "searchable":1,
-         "changeable":1,
-         "api":"csp_Uvod",
-         "playerType":2,
-         "filterable":1
       },
       {
          "key":"荐片",
@@ -91,58 +71,83 @@
          "changeable":1
       },
       {
-         "key":"Cori爱壹帆",
-         "name":"Cori爱壹帆",
-         "type":3,
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":0,
-         "style":{
-            "type":"rect",
-            "ratio":0.75
-         },
-         "api":"csp_GM",
-         "ext":{
-            "userScript":"https://hub.gitmirror.com/https://github.com/CatVodSpider-GM/SFW-Spiders/raw/refs/heads/main/userScripts/ysfp.user.js",
-            "debug":false,
-            "webViewSettings":{
-               "blockNetworkImage":true,
-               "blockList":[
-                  "*.png*",
-                  "*.mp3*",
-                  "*.css*",
-                  "https://*.googletagmanager.com/*",
-                  "https://*.google-analytics.com/*"
-               ]
-            },
-            "spider":{
-               "homeContent":{
-                  "loadUrl":"https://m.yfsp.tv/"
-               },
-               "categoryContent":{
-                  "loadUrl":"https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"
-               },
-               "detailContent":{
-                  "loadUrl":"https://m.yfsp.tv/play/${id}"
-               },
-               "playerContent":{
-                  "loadUrl":"https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"
-               },
-               "searchContent":{
-                  "loadUrl":"https://m.yfsp.tv/search"
-               }
-            }
-         },
-         "jar":"https://p.ntnas.top/https://raw.githubusercontent.com/CatVodSpider-GM/SFW-Spiders/refs/heads/main/Spiders-Lib/GM.jar"
+         "key": "可可影视",
+         "name": "可可影视",
+         "type": 3,
+         "changeable": 1,
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "api": "csp_XBPQ",
+         "jar":"https://p.ntnas.top/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
+         "ext": {
+                "数组": "<a&&</a>",
+                "标题":"class=\"v-item-title\">&&</div>",
+                "副标题": "<span>&&<",
+                "图片": "https+://vres.ynzqyc.com/vod1/+data-original=\"/vod1/&&\"",
+                "搜索二次截取": "<div class=\"search-result-list&&pagenation-box fs-margin-section",
+                "搜索数组": "<a&&</a>",
+                "搜索图片": "https+://vres.ynzqyc.com/vod1/+data-original=\"/vod1/&&\"",
+                "搜索标题":"class=\"v-item-title\">&&</div>",
+                "搜索链接": "href=\"&&\"",
+                "搜索url": "https://www.keke1.app/search?os=pc&k={wd}&page={pg}",
+                "线路标题": "class=\"source-item-label\">&&</span>[替换:kkys01.com可可影视提供>>观影线路]",
+                "分类": "电影$1#电视剧$2#动漫$3#综艺$4#短剧$6",
+                "分类url": "https://www.keke1.app/show/{cateId}-{class}-{area}-{lang}-{year}-{by}-{catePg}.html"
+             }
+      },      
+      {
+         "key": "brovod",
+         "name": "兄弟影视",
+         "type": 3,
+         "changeable": 1,
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "api": "csp_XBPQ",
+         "jar":"https://p.ntnas.top/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
+         "ext": {
+                "请求头": "手机",
+                "主页url": "https://www.brovod.com/",
+                "副标题": "pic-text text-right\">&&</b>",
+                "图片": "data-original=\"&&\"",
+                "嗅探词": "https://api.xdys.vip/lx/video.php?r=#.m3u8#.m3u8?",
+                "过滤词": "https://dmku.brovod.top/dmad/xdad.m3u8#https://dmku.brovod.top/appdownload/fxt.m3u8",
+                "搜索url": "https://www.brovod.com/ss/-------------/?wd={wd}",
+                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
+                "线路标题": "<span>&&</small>[替换:</span><small>>>✮更新]",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "分类": "电影$movie#电视剧$tv#动漫$cartoon#综艺$show#短剧$documentary",
+                "分类url": "https://www.brovod.com/show/{cateId}-{area}--{class}-{lang}----{catePg}---{year}/"
+             }
       },
       {
-         "key":"老张直播频道",
-         "name":"老张直播频道",
-         "type":4,
-         "api":"http://zhangqun66.com/zh/2241-2.php",
-         "searchable":1,
-         "changeable":0,
-         "ext":"1,2,3"
+         "key": "剧哥哥",
+         "name": "剧哥哥",
+         "type": 3,
+         "changeable": 1,
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "api": "csp_XBPQ",
+         "jar":"https://p.ntnas.top/https://raw.githubusercontent.com/jkn2008/zyck/master/jar/c%20(1).txt",
+         "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+         "ext": {
+                "主页url": "https://jugege.la/",
+                "副标题": "pic-text text-right\">&&</b>",
+                "图片": "data-original=\"&&\"",
+                "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+                "搜索url": "https://jugege.la/vodsearch/-------------.html?wd={wd}",
+                "搜索图片":"https://jugege.la/mxtheme/images/favicon.png",
+                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
+                "线路数组": "data-dropdown-value=&&</div>",
+                "线路标题": "<span>&&</small>[替换:</span><small>>>✮更新]",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
+                "分类url": "https://jugege.la/vodshow/{cateId}-{area}-------{catePg}---{year}.html"
+             }
       }
    ],
    "lives":[
