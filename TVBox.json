@@ -12,16 +12,10 @@
          "categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","台湾剧","韩国剧","欧美剧","香港剧","泰国剧","日本剧","福利","记录片","动画片","海外剧","倫理片","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","搞笑","音乐","影视","汽车","短剧大全","预告片","预告片","体育"]
       },      
       {
-         "key":"天堂影院",
-         "name":"天堂影院",
-         "type":1,
-         "api":"https://heimuer.ggff.net/api.php/tvbox",
-         "searchable":1,
-         "quickSearch":1,
-         "filterable":0,
-         "header":{
-            "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-         }
+         "key":"电影天堂",
+         "name":"电影天堂",
+         "type":4,
+         "api":"https://tvbot.ggff.net/dytt"
       },
       {
          "key": "瓜子影视",
@@ -47,7 +41,7 @@
          "key":"小苹果",
          "name":"小苹果",
          "type":3,
-         "api":"https://gh-proxy.com/raw.githubusercontent.com/jkn2008/PyramidStore/refs/heads/main/plugin/app/小苹果APP.py",
+         "api":"https://gh.clun.top/raw.githubusercontent.com/jkn2008/PyramidStore/refs/heads/main/plugin/app/小苹果APP.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
@@ -58,7 +52,7 @@
          "key":"金牌",
          "name":"金牌",
          "type":3,
-         "api":"https://gh-proxy.com/raw.githubusercontent.com/jkn2008/PyramidStore/refs/heads/main/plugin/html/金牌.py",
+         "api":"https://gh.clun.top/raw.githubusercontent.com/jkn2008/PyramidStore/refs/heads/main/plugin/html/金牌.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
