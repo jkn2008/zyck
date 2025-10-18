@@ -385,11 +385,17 @@ class Spider(Spider):
             # 编码关键词
             encoded_key = urllib.parse.quote(key.strip(), encoding='utf-8', errors='replace')
             
-            # 构造搜索URL
-            search_url = f"{self.host}search.htm"
+            # 修复搜索翻页：根据页码构造正确的搜索URL
+            if int(pg) == 1:
+                # 第一页：/search.htm?search=关键词
+                search_url = f"{self.host}search.htm"
+            else:
+                # 第二页及以后：/search-页码.htm?search=关键词  
+                search_url = f"{self.host}search-{pg}.htm"
+            
+            # 搜索参数
             params = {
-                'search': encoded_key,
-                'page': int(pg)
+                'search': encoded_key
             }
             
             # 发起请求
@@ -399,6 +405,7 @@ class Spider(Spider):
                 params=params,
                 timeout=8
             )
+            
             if resp.status_code not in (200, 302):
                 print(f"搜索页面请求失败，URL：{resp.url}，状态码：{resp.status_code}")
                 return {'list': [], 'page': int(pg), 'pagecount': 1, 'limit': 0, 'total': 0}
@@ -464,12 +471,12 @@ class Spider(Spider):
                 print(f"解析分页失败（默认单页）：{e}")
                 pagecount = 1
             
-            # 返回结果（修复点2：补全page键的引号，修正语法错误）
+            # 返回结果
             total = len(vlist) * pagecount
             print(f"搜索关键词「{key}」第{pg}页处理完成，结果{len(vlist)}条，总页数{pagecount}")
             return {
                 'list': vlist,
-                'page': int(pg),  # 原代码此处缺少引号，导致语法错误
+                'page': int(pg),
                 'pagecount': pagecount,
                 'limit': len(vlist),
                 'total': total
@@ -478,7 +485,8 @@ class Spider(Spider):
             print(f"搜索功能整体异常：{e}")
             return {
                 'list': [],
-                'page': int(pg),                  'pagecount': 1,
+                'page': int(pg),
+                'pagecount': 1,
                 'limit': 0,
                 'total': 0
             }
@@ -491,14 +499,12 @@ class Spider(Spider):
             'Host': urllib.parse.urlparse(self.host).netloc,
         })
         
-        # 根据rule中的double设置
         return {
-            'parse': 1,  # 根据rule中的play_parse设置
+            'parse': 1,
             'url': id,
             'header': headers,
-            'double': True  # 根据rule中的double设置
+            'double': True
         }
-
     def localProxy(self, param):
         try:
             url = param['url']
