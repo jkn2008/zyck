@@ -278,33 +278,101 @@ class Spider(Spider):
                         views = text.replace('观看：', '').replace('观看', '').strip()
             remarks = f"{duration} | {views}"
             
-            # 提取播放地址
-            video_url = ''
-            m3u8_match = re.search(r'videoUrl\s*=\s*["\']([^"\']+\.m3u8)["\']', html)
-            if m3u8_match:
-                video_url = m3u8_match.group(1)
-            if not video_url:
-                source = data('source[src*=".m3u8"], source[src*=".mp4"]')
-                video_url = source.attr('src') or ''
-            if not video_url:
-                js_matches = re.findall(r'(https?://[^\s"\']+\.(?:m3u8|mp4))', html)
-                if js_matches:
-                    video_url = js_matches[0]
+            # 简化版播放线路提取 - 直接基于找到的链接生成第二条线路
+            video_urls = []
             
-            if video_url and not video_url.startswith('http'):
-                video_url = f"{self.host}{video_url.lstrip('/')}"
-        
+            # 首先尝试提取任意一个m3u8链接
+            found_url = None
+            
+            # 方法1: 从video标签提取
+            video_element = data('video#video-play_html5_api')
+            if video_element:
+                video_src = video_element.attr('src')
+                if video_src and '.m3u8' in video_src:
+                    found_url = video_src
+                    print(f"从video标签找到链接: {found_url}")
+            
+            # 方法2: 从source标签提取
+            if not found_url:
+                source_element = data('source#video-source')
+                if source_element:
+                    source_src = source_element.attr('src')
+                    if source_src and '.m3u8' in source_src:
+                        found_url = source_src
+                        print(f"从source标签找到链接: {found_url}")
+            
+            # 方法3: 正则搜索
+            if not found_url:
+                m3u8_matches = re.findall(r'https?://[^\s"\']+\.m3u8[^\s"\']*', html)
+                if m3u8_matches:
+                    found_url = m3u8_matches[0]
+                    print(f"通过正则找到链接: {found_url}")
+            
+            # 清理找到的URL
+            if found_url:
+                found_url = found_url.replace('\\/', '/').replace('\\u002F', '/').replace('\\"', '')
+                if not found_url.startswith('http'):
+                    found_url = f"https:{found_url}" if found_url.startswith('//') else f"https://{found_url}"
+                
+                # 关键修改：将HD线路放在前面
+                if 'hdcdn.online' in found_url:
+                    # 如果找到的是HD线路，直接添加，然后生成主线路
+                    video_urls.append(found_url)
+                    second_url = found_url.replace('hdcdn.online', 'hsex.tv')
+                    video_urls.append(second_url)
+                    print(f"生成主线路: {second_url}")
+                elif 'hsex.tv' in found_url:
+                    # 如果找到的是主线路，先生成HD线路，再添加主线路
+                    second_url = found_url.replace('hsex.tv', 'hdcdn.online')
+                    video_urls.append(second_url)  # HD线路在前
+                    video_urls.append(found_url)   # 主线路在后
+                    print(f"生成HD线路: {second_url}")
+                else:
+                    # 如果是其他域名，直接添加
+                    video_urls.append(found_url)
+                    video_urls.append(found_url)  # 复制一份作为备用
+                    print(f"复制备用线路: {found_url}")
+            
+            print(f"最终播放线路: {video_urls}")
+            
+            # 构建播放源信息 - 确保HD线路优先显示
+            play_from = []
+            play_url = []
+            
+            for i, video_url in enumerate(video_urls):
+                if 'hdcdn.online' in video_url:
+                    line_name = 'HD线路'  # HD线路优先
+                elif 'hsex.tv' in video_url:
+                    line_name = '主线路'
+                else:
+                    line_name = f'线路{i+1}'
+                
+                play_from.append(line_name)
+                play_url.append(f'正片${video_url}')
+            
+            # 如果没有找到任何线路
+            if not play_from:
+                play_from = ['好色TV']
+                play_url = ['正片$暂无播放地址']
+            
+            # 确保有两条线路（即使只有一条也复制一份）
+            if len(play_from) == 1:
+                play_from.append(f'{play_from[0]}-备用')
+                play_url.append(play_url[0])
+            
             vod = {
                 'vod_id': vod_id,
                 'vod_name': title,
                 'vod_pic': vod_pic,
                 'vod_remarks': remarks,
-                'vod_play_from': '好色TV（优）',
-                'vod_play_url': f'正片${video_url}' if video_url else '正片$暂无地址'
+                'vod_play_from': '$$$'.join(play_from),
+                'vod_play_url': '$$$'.join(play_url)
             }
             return {'list': [vod]}
         except Exception as e:
             print(f"详情解析失败: {e}")
+            import traceback
+            traceback.print_exc()
             return {'list': []}
 
     def searchContent(self, key, quick, pg=1):
