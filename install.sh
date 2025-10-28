@@ -8,4 +8,4 @@ sudo figlet -c "SUBSCRIBE TO"
 sudo figlet -c How To
 sudo figlet -c Guys
 sudo echo https://www.youtube.com/c/HowToGuys
-sudo bash chromeos-install.sh -src rammus_recovery.bin -dst /dev/sda
+sudo bash chromeos-install.sh -src zork_recovery.bin -dst /dev/sda
