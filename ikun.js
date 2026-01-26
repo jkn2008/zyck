@@ -1,16 +1,16 @@
 /*!
- * @name ikun音源(公益版)
- * @description 支持酷我网易咪咕全音质,Q970586864
- * @version v17
+ * @name ikun音源[公益版]
+ * @description QQ群970586864
+ * @version v22
  * @author ikunshare
  */
 
 const DEV_ENABLE = false
 const UPDATE_ENABLE = true
-const API_URL = "https://api.ikunshare.com"
+const API_URL = "http://api.ikunshare.com"
 const API_KEY = ""
-const SCRIPT_MD5 = "0cc6eee9625f648a706fbc4d3408430c";
-const MUSIC_QUALITY = JSON.parse('{"kw":["128k","320k","flac","flac24bit","hires"],"kg":["128k","320k","flac","flac24bit","hires","atmos","master"],"tx":["128k","320k","flac","flac24bit","hires","atmos","atmos_plus","master"],"wy":["128k","320k","flac","flac24bit","hires","atmos","master"],"git":["128k","320k","flac"]}');
+const SCRIPT_MD5 = "a71d053b4d0eaa00de5acd60f0bdfae1";
+const MUSIC_QUALITY = JSON.parse('{"kw":["128k","320k","flac","flac24bit","hires"],"wy":["128k","320k","flac","flac24bit","hires","atmos","master"],"git":["128k","320k","flac"]}');
 
 const MUSIC_SOURCE = Object.keys(MUSIC_QUALITY);
 const {EVENT_NAMES, request, on, send, utils, env, version} = globalThis.lx;
@@ -19,6 +19,7 @@ const httpFetch = (url, options = {method: "GET"}) => {
     return new Promise((resolve, reject) => {
         console.log("--- start --- " + url);
         request(url, options, (err, resp) => {
+            console.log("API Request: ", options)
             if (err) return reject(err);
             console.log("API Response: ", resp);
             resolve(resp);
@@ -78,7 +79,7 @@ const handleGetMusicUrl = async (source, musicInfo, quality) => {
 
 const checkUpdate = async () => {
     const request = await httpFetch(
-        `${API_URL}/script?key=${API_KEY}&checkUpdate=${SCRIPT_MD5}`,
+        `${API_URL}/script/lxmusic?key=${API_KEY}&checkUpdate=${SCRIPT_MD5}`,
         {
             method: "GET",
             headers: {
@@ -116,7 +117,7 @@ MUSIC_SOURCE.forEach((item) => {
 on(EVENT_NAMES.request, ({action, source, info}) => {
     switch (action) {
         case "musicUrl":
-            if (env != "mobile") {
+            if (env !== "mobile") {
                 console.group(`Handle Action(musicUrl)`);
                 console.log("source", source);
                 console.log("quality", info.type);
