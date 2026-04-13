@@ -2,8 +2,7 @@
     {
         "id": "xiaosa",
         "name": "潇洒",
-        "api": "https://tvbox.catvod.com/xs/api.json
-",
+        "api": "https://tvbox.catvod.com/xs/api.json",
         "nsfw": false,
         "type": 0,
         "extra": {
