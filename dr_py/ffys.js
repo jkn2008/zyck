@@ -1,126 +1,134 @@
 /**
- * @title 飞飞影视
- * @type 0
- * @api https://www.ffys.fun
+ * ffys.fun 飞飞影视 drpy2脚本
+ * 仅支持本地Drpy2后端服务，浏览器drpy2.min.js会跨域403
  */
+const UA = "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36";
+const host = "https://www.ffys.fun";
 
-const UA = "Mozilla/5.0 (Android TV) AppleWebKit/537.36 Chrome/126.0.0.0 Safari/537.36";
-const siteUrl = "https://www.ffys.fun";
-
-const cateMap = [
-    { typeId: 1, typeName: "电影" },
-    { typeId: 2, typeName: "剧集" },
-    { typeId: 3, typeName: "动漫" },
-    { typeId: 4, typeName: "综艺" },
-    { typeId: 6, typeName: "爽剧" }
-];
-
+// 获取首页推荐
 async function home() {
-    let list = [];
-    let res = await fetch(`${siteUrl}/api/home/recommend`, {
-        headers: { "User-Agent": UA, "Referer": siteUrl }
-    });
-    let json = await res.json();
-    if (json?.data) {
-        list.push({
-            title: "🔥首页推荐",
-            data: json.data.map(item => formatVod(item))
+    const list = [];
+    try {
+        const res = await fetch(`${host}/api/home`, {
+            headers: { "User-Agent": UA, "Referer": host }
         });
-    }
-    for (let c of cateMap) {
-        let r = await fetch(`${siteUrl}/api/video/list?type=${c.typeId}&page=1&limit=12`, {
-            headers: { "User-Agent": UA, "Referer": siteUrl }
-        });
-        let j = await r.json();
-        if (j?.data?.list) {
-            list.push({
-                title: c.typeName,
-                data: j.data.list.map(item => formatVod(item))
+        const json = await res.json();
+        if (json && json.data) {
+            json.data.forEach((item) => {
+                list.push({
+                    vod_id: item.id,
+                    vod_name: item.title,
+                    vod_pic: item.pic,
+                    vod_remarks: item.update || "",
+                    vod_year: item.year || "",
+                });
             });
         }
+    } catch (e) {
+        console.log("首页接口异常", e);
     }
-    return setHome(list);
+    return setVod(list);
 }
 
+// 获取分类列表
 async function category(tid, pg) {
-    let cid = Number(tid);
-    let limit = 20;
-    let res = await fetch(`${siteUrl}/api/video/list?type=${cid}&page=${pg}&limit=${limit}`, {
-        headers: {
-            "User-Agent": UA,
-            "Referer": siteUrl
+    const list = [];
+    try {
+        const res = await fetch(`${host}/api/cate?type=${tid}&page=${pg}`, {
+            headers: { "User-Agent": UA, "Referer": host }
+        });
+        const json = await res.json();
+        if (json && json.data) {
+            json.data.forEach((item) => {
+                list.push({
+                    vod_id: item.id,
+                    vod_name: item.title,
+                    vod_pic: item.pic,
+                    vod_remarks: item.update || "",
+                });
+            });
         }
-    });
-    let json = await res.json();
-    let arr = [];
-    if (json?.data?.list) {
-        arr = json.data.list.map(item => formatVod(item));
+    } catch (e) {
+        console.log("分类接口异常", e);
     }
-    return setVod(arr, pg < json?.data?.totalPage);
+    return setVod(list);
 }
 
+// 搜索
 async function search(wd, pg) {
-    let res = await fetch(`${siteUrl}/api/video/search?keyword=${encodeURIComponent(wd)}&page=${pg}&limit=20`, {
-        headers: {
-            "User-Agent": UA,
-            "Referer": siteUrl
+    const list = [];
+    try {
+        const res = await fetch(`${host}/api/search?wd=${encodeURIComponent(wd)}&page=${pg}`, {
+            headers: { "User-Agent": UA, "Referer": host }
+        });
+        const json = await res.json();
+        if (json && json.data) {
+            json.data.forEach((item) => {
+                list.push({
+                    vod_id: item.id,
+                    vod_name: item.title,
+                    vod_pic: item.pic,
+                    vod_remarks: item.update || "",
+                });
+            });
         }
-    });
-    let json = await res.json();
-    let arr = [];
-    if (json?.data?.list) {
-        arr = json.data.list.map(item => formatVod(item));
+    } catch (e) {
+        console.log("搜索接口异常", e);
     }
-    return setVod(arr, pg < json?.data?.totalPage);
+    return setVod(list);
 }
 
+// 详情 + 播放集数
 async function detail(id) {
-    let res = await fetch(`${siteUrl}/api/video/detail?id=${id}`, {
-        headers: {
-            "User-Agent": UA,
-            "Referer": siteUrl
-        }
-    });
-    let json = await res.json();
-    if (!json?.data) return setDetail({});
-    let info = json.data;
-    let vod = formatVod(info);
-
+    let vodInfo = {};
     let playList = [];
-    if (info?.playList && Array.isArray(info.playList)) {
-        for (let pl of info.playList) {
-            let ep = [];
-            for (let p of pl.playUrls) {
-                ep.push(`${p.name}$${p.url}`);
+    try {
+        const res = await fetch(`${host}/api/detail?id=${id}`, {
+            headers: { "User-Agent": UA, "Referer": host }
+        });
+        const json = await res.json();
+        if (json && json.data) {
+            const d = json.data;
+            vodInfo = {
+                vod_id: d.id,
+                vod_name: d.title,
+                vod_pic: d.pic,
+                vod_actor: d.actor || "",
+                vod_director: d.director || "",
+                vod_year: d.year || "",
+                vod_area: d.area || "",
+                vod_class: d.type || "",
+                vod_remarks: d.update || "",
+                vod_content: d.desc || "",
+            };
+            // 组装播放线路
+            if (d.playList && Array.isArray(d.playList)) {
+                d.playList.forEach((line, idx) => {
+                    let episodes = [];
+                    if(line.list){
+                        line.list.forEach(ep=>{
+                            episodes.push(`${ep.name}$${ep.url}`);
+                        })
+                    }
+                    playList.push({
+                        name: line.name || `线路${idx+1}`,
+                        list: episodes.join("#")
+                    })
+                })
             }
-            playList.push(ep.join("#"));
+            vodInfo.vod_play_from = playList.map(i=>i.name).join("$$$");
+            vodInfo.vod_play_url = playList.map(i=>i.list).join("$$$");
         }
+    } catch (e) {
+        console.log("详情接口异常", e);
     }
-    vod.vod_play_from = playList.map((_, i) => `线路${i + 1}`).join("$$$");
-    vod.vod_play_url = playList.join("$$$");
-    return setDetail(vod);
+    return setDetail(vodInfo);
 }
 
-function formatVod(item) {
-    return {
-        vod_id: item.id,
-        vod_name: item.title,
-        vod_pic: item.image,
-        vod_remarks: item.updateInfo || "",
-        vod_year: item.year || "",
-        vod_area: item.area || "",
-        vod_class: item.typeName || "",
-        vod_actor: item.actor || "",
-        vod_director: item.director || "",
-        vod_content: item.desc || ""
-    };
-}
-
-async function getCategory() {
-    return cateMap.map(x => {
-        return {
-            type_id: x.typeId,
-            type_name: x.typeName
-        };
-    });
-}
+// 固定格式导出
+export default {
+    home,
+    category,
+    search,
+    detail
+};
